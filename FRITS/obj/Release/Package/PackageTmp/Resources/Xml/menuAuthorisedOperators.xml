@@ -1,0 +1,4 @@
+<items>
+	<item Text="Delete" Look-LeftIconUrl="icon_delete.gif" Look-HoverLeftIconUrl="icon_delete_over.gif"
+		NavigateUrl="javascript:DeleteOperator();" />
+</items>

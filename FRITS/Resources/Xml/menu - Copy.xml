@@ -1,0 +1,20 @@
+<SiteMap>
+  <item Text="Welcome" Value="frits.welcome" NavigateUrl="~/Default.aspx"></item>
+  <item Text="Manage Incidents" Value="frits.incidents">
+	  <item Text="Reviews" Value="frits.incidents.reviews" NavigateUrl="~/app/Reviews" />
+	  <item Text="Authorise Review" Value="frits.incidents.reviews.maintain" NavigateUrl="~/app/authorisereview" />
+	  <item Text="Record Review" Value="frits.incidents.reviews.record" NavigateUrl="reviews/record" />	  
+	  <item Text="Update Review - Branch" Value="frits.incidents.reviews.branchupdate" NavigateUrl="~/app/updatereviewrecord" />
+	  <item Text="View / Update Review" Value="frits.incidents.reviews.viewandupdate" NavigateUrl="~/app/viewupdatereview" />
+  </item>
+  <item Text="Setup" Value="frits.systemsetup" NavigateUrl="~/app/systemsetup" />	
+  <item Text="Utilities" Value="frits.utilities">
+    <item Text="Profile Manager" Value="frits.utilities.profilemanager" NavigateUrl="javascript:top.LaunchProfileManager();" />
+    <item Text="Settings" Value="frits.utilities.settings" NavigateUrl="~/Utilities/Settings.aspx" />
+  </item>
+</SiteMap>
+
+
+
+
+  

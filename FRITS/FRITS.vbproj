@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FRITS</RootNamespace>
+    <AssemblyName>FRITS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44342</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ARDataServices">
+      <HintPath>..\ARDataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="ARObjects">
+      <HintPath>..\ARObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="ARPresentationLayer">
+      <HintPath>..\ARPresentationLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="ARWebSecurity">
+      <HintPath>..\ARWebSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentArt.Web.UI, Version=2008.1.1110.35, Culture=neutral, PublicKeyToken=9bc9f846553156bb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ComponentArt.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\..\OtherFiles\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PATechnologies.Web.Common, Version=1.0.2890.23644, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PATechnologies.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureAccess">
+      <HintPath>..\SecureAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="NLog" />
+    <Import Include="NLog.ComInterop" />
+    <Import Include="NLog.Common" />
+    <Import Include="NLog.Conditions" />
+    <Import Include="NLog.Config" />
+    <Import Include="NLog.Filters" />
+    <Import Include="NLog.LayoutRenderers" />
+    <Import Include="NLog.LayoutRenderers.Wrappers" />
+    <Import Include="NLog.Layouts" />
+    <Import Include="NLog.LogReceiverService" />
+    <Import Include="NLog.Targets" />
+    <Import Include="PortSight.SecureAccess.ARDataServices" />
+    <Import Include="PortSight.SecureAccess.ARObjects" />
+    <Import Include="PortSight.SecureAccess.ARPresentationLayer" />
+    <Import Include="PortSight.SecureAccess.ARWebSecurity" />
+    <Import Include="SecureAccess" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.OleDb" />
+    <Import Include="System.Data.Sql" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Net" />
+    <Import Include="System.Net.Mail" />
+    <Import Include="System.Reflection" />
+    <Import Include="System.Threading" />
+    <Import Include="System.Xml" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.Routing" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="App\AssignReview.aspx" />
+    <Content Include="App\AuthoriseAssignment.aspx" />
+    <Content Include="App\AuthoriseReview.aspx" />
+    <Content Include="App\RecordReview.aspx" />
+    <Content Include="App\Reviews.aspx" />
+    <Content Include="App\SystemSetup.aspx" />
+    <Content Include="App\UpdateReviewRecord.aspx" />
+    <Content Include="App\ViewReviews.aspx" />
+    <Content Include="App\ViewUpdateReview.aspx" />
+    <Content Include="App_Themes\Default.css" />
+    <Content Include="App_Themes\Default\Default.css" />
+    <Content Include="App_Themes\ProfileManager\Default.css" />
+    <Content Include="ConfigureApp.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Images\accessdenied.gif" />
+    <Content Include="Images\add.gif" />
+    <Content Include="Images\add2.gif" />
+    <Content Include="Images\add2_d.gif" />
+    <Content Include="Images\add_d.gif" />
+    <Content Include="Images\aligncenter.gif" />
+    <Content Include="Images\alignjustify.gif" />
+    <Content Include="Images\alignleft.gif" />
+    <Content Include="Images\alignright.gif" />
+    <Content Include="Images\Application.gif" />
+    <Content Include="Images\ApplicationPart.gif" />
+    <Content Include="Images\ApplicationRole.gif" />
+    <Content Include="Images\arrow_black.gif" />
+    <Content Include="Images\arrow_right.gif" />
+    <Content Include="Images\arrow_right_hover.gif" />
+    <Content Include="Images\arrow_white.gif" />
+    <Content Include="Images\asc.gif" />
+    <Content Include="Images\ascx.gif" />
+    <Content Include="Images\aspx.gif" />
+    <Content Include="Images\attachment.gif" />
+    <Content Include="Images\attachment_hover.gif" />
+    <Content Include="Images\authorize.png" />
+    <Content Include="Images\banner_logo.gif" />
+    <Content Include="Images\BlueExplorer.gif" />
+    <Content Include="Images\bold.gif" />
+    <Content Include="Images\border.gif" />
+    <Content Include="Images\bottom_bar.gif" />
+    <Content Include="Images\break.gif" />
+    <Content Include="Images\break_bg.gif" />
+    <Content Include="Images\btncheck.gif" />
+    <Content Include="Images\btncheck_x.gif" />
+    <Content Include="Images\BtnFirstPage.gif" />
+    <Content Include="Images\BtnFirstPage2.gif" />
+    <Content Include="Images\BtnLastPage.gif" />
+    <Content Include="Images\BtnLastPage2.gif" />
+    <Content Include="Images\btnLogin.png" />
+    <Content Include="Images\BtnNextPage.gif" />
+    <Content Include="Images\BtnNextPage2.gif" />
+    <Content Include="Images\BtnPrevPage.gif" />
+    <Content Include="Images\BtnPrevPage2.gif" />
+    <Content Include="Images\BtnPrint.gif" />
+    <Content Include="Images\BtnPrint2.gif" />
+    <Content Include="Images\BtnPrintPage.gif" />
+    <Content Include="Images\BtnPrintPage2.gif" />
+    <Content Include="Images\btnReset.png" />
+    <Content Include="Images\BtnSave.gif" />
+    <Content Include="Images\BtnSave2.gif" />
+    <Content Include="Images\BtnSearch.gif" />
+    <Content Include="Images\BtnSearch2.gif" />
+    <Content Include="Images\btn_calendar.gif" />
+    <Content Include="Images\btn_refresh.gif" />
+    <Content Include="Images\bullet.gif" />
+    <Content Include="Images\bullet2.gif" />
+    <Content Include="Images\bullets.gif" />
+    <Content Include="Images\bullet_2.gif" />
+    <Content Include="Images\button.png" />
+    <Content Include="Images\button2.png" />
+    <Content Include="Images\button_center.gif" />
+    <Content Include="Images\button_left.gif" />
+    <Content Include="Images\button_right.gif" />
+    <Content Include="Images\calendar.gif" />
+    <Content Include="Images\cal_nextMonth.gif" />
+    <Content Include="Images\cal_prevMonth.gif" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\Catalog.gif" />
+    <Content Include="Images\change.png" />
+    <Content Include="Images\changepassword.gif" />
+    <Content Include="Images\changepassword.png" />
+    <Content Include="Images\check.gif" />
+    <Content Include="Images\check.png" />
+    <Content Include="Images\cheque_bkg.gif" />
+    <Content Include="Images\cheque_bkg.png" />
+    <Content Include="Images\cheque_login_bkg.gif" />
+    <Content Include="Images\cheque_login_bkg.png" />
+    <Content Include="Images\chevron-breadcrumb.png" />
+    <Content Include="Images\christmas-eve.jpg" />
+    <Content Include="Images\cleardot.gif" />
+    <Content Include="Images\close.gif" />
+    <Content Include="Images\col.gif" />
+    <Content Include="Images\collapseall.gif" />
+    <Content Include="Images\comboItemBg.gif" />
+    <Content Include="Images\commit.png" />
+    <Content Include="Images\config.gif" />
+    <Content Include="Images\contacts.gif" />
+    <Content Include="Images\copy.gif" />
+    <Content Include="Images\copy_disabled.gif" />
+    <Content Include="Images\crv_head_bg.gif" />
+    <Content Include="Images\crv_head_bg.png" />
+    <Content Include="Images\crv_head_bg_blue.gif" />
+    <Content Include="Images\crv_head_bg_blue.png" />
+    <Content Include="Images\cs.gif" />
+    <Content Include="Images\css.gif" />
+    <Content Include="Images\cut.gif" />
+    <Content Include="Images\cut_disabled.gif" />
+    <Content Include="Images\decline.png" />
+    <Content Include="Images\delete.gif" />
+    <Content Include="Images\deleted.gif" />
+    <Content Include="Images\deletedFolder.gif" />
+    <Content Include="Images\deleteitem.GIF" />
+    <Content Include="Images\delete_d.gif" />
+    <Content Include="Images\delitem.gif" />
+    <Content Include="Images\desc.gif" />
+    <Content Include="Images\dll.gif" />
+    <Content Include="Images\document_add.gif" />
+    <Content Include="Images\document_add.png" />
+    <Content Include="Images\dotbox.gif" />
+    <Content Include="Images\drafts.gif" />
+    <Content Include="Images\drop.gif" />
+    <Content Include="Images\dropdown.gif" />
+    <Content Include="Images\dropdown_active.gif" />
+    <Content Include="Images\dropdown_hover.gif" />
+    <Content Include="Images\drop_hover.gif" />
+    <Content Include="Images\edit.gif" />
+    <Content Include="Images\editheader.gif" />
+    <Content Include="Images\edit_d.gif" />
+    <Content Include="Images\Etc.gif" />
+    <Content Include="Images\exp.gif" />
+    <Content Include="Images\expand-all.gif" />
+    <Content Include="Images\expandall.gif" />
+    <Content Include="Images\export.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\feed.gif" />
+    <Content Include="Images\file.gif" />
+    <Content Include="Images\filter.gif" />
+    <Content Include="Images\find.gif" />
+    <Content Include="Images\flag_blue.gif" />
+    <Content Include="Images\flag_blue.png" />
+    <Content Include="Images\flag_green.gif" />
+    <Content Include="Images\flag_green.png" />
+    <Content Include="Images\flag_none.gif" />
+    <Content Include="Images\flag_red.gif" />
+    <Content Include="Images\flag_red.png" />
+    <Content Include="Images\flag_yellow.gif" />
+    <Content Include="Images\flag_yellow.png" />
+    <Content Include="Images\folder.gif" />
+    <Content Include="Images\folders.gif" />
+    <Content Include="Images\folder_ok.gif" />
+    <Content Include="Images\folder_ok.png" />
+    <Content Include="Images\folder_open.gif" />
+    <Content Include="Images\folder_warning.gif" />
+    <Content Include="Images\folder_warning.png" />
+    <Content Include="Images\forbidden.gif" />
+    <Content Include="Images\forbidden.png" />
+    <Content Include="Images\form.gif" />
+    <Content Include="Images\form.png" />
+    <Content Include="Images\formatpainter.gif" />
+    <Content Include="Images\generate.png" />
+    <Content Include="Images\gif.gif" />
+    <Content Include="Images\gray.gif" />
+    <Content Include="Images\grayDots.gif" />
+    <Content Include="Images\greyarrow.gif" />
+    <Content Include="Images\grid_headerBg.gif" />
+    <Content Include="Images\grid_header_bg.gif" />
+    <Content Include="Images\grid_header_hover_bg.gif" />
+    <Content Include="Images\group_asc.gif" />
+    <Content Include="Images\group_background.gif" />
+    <Content Include="Images\group_desc.gif" />
+    <Content Include="Images\H.gif" />
+    <Content Include="Images\hd_bkg.gif" />
+    <Content Include="Images\hd_tabstrip_bg.gif" />
+    <Content Include="Images\hd_tabstrip_bg.png" />
+    <Content Include="Images\hd_tabstrip_bg_btm.gif" />
+    <Content Include="Images\hd_tabstrip_bg_top.gif" />
+    <Content Include="Images\header1stCell_bg.gif" />
+    <Content Include="Images\header_activeBg.gif" />
+    <Content Include="Images\header_bg.gif" />
+    <Content Include="Images\header_bkg.gif" />
+    <Content Include="Images\header_hoverBg.gif" />
+    <Content Include="Images\header_logo_text.png" />
+    <Content Include="Images\header_menu_bkg.jpg" />
+    <Content Include="Images\header_rowBg.gif" />
+    <Content Include="Images\heading_bg.gif" />
+    <Content Include="Images\help.gif" />
+    <Content Include="Images\help2.gif" />
+    <Content Include="Images\help2.png" />
+    <Content Include="Images\home.gif" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\horizontal.png" />
+    <Content Include="Images\horizontalgradient.gif" />
+    <Content Include="Images\horizontalgradient_orange.gif" />
+    <Content Include="Images\hover_tab_bg.gif" />
+    <Content Include="Images\hover_tab_left_icon.gif" />
+    <Content Include="Images\hover_tab_right_icon.gif" />
+    <Content Include="Images\h_backgroundgradient.gif" />
+    <Content Include="Images\h_break.gif" />
+    <Content Include="Images\icons\16x16\Application.gif" />
+    <Content Include="Images\icons\16x16\ApplicationPart.gif" />
+    <Content Include="Images\icons\16x16\ApplicationRole.gif" />
+    <Content Include="Images\icons\16x16\AuditLog.gif" />
+    <Content Include="Images\icons\16x16\Catalog.gif" />
+    <Content Include="Images\icons\16x16\Delete.gif" />
+    <Content Include="Images\icons\16x16\Etc.gif" />
+    <Content Include="Images\icons\16x16\MyAdministration.gif" />
+    <Content Include="Images\icons\16x16\MySettings.gif" />
+    <Content Include="Images\icons\16x16\New.gif" />
+    <Content Include="Images\icons\16x16\OU.gif" />
+    <Content Include="Images\icons\16x16\PermissionType.gif" />
+    <Content Include="Images\icons\16x16\Schema.gif" />
+    <Content Include="Images\icons\16x16\User.gif" />
+    <Content Include="Images\icons\16x16\UserGroup.gif" />
+    <Content Include="Images\icons\16x16\View.gif" />
+    <Content Include="Images\icons\20x20\Application.gif" />
+    <Content Include="Images\icons\20x20\ApplicationPart.gif" />
+    <Content Include="Images\icons\20x20\ApplicationRole.gif" />
+    <Content Include="Images\icons\20x20\AuditLog.gif" />
+    <Content Include="Images\icons\20x20\Catalog.gif" />
+    <Content Include="Images\icons\20x20\Delete.gif" />
+    <Content Include="Images\icons\20x20\Help.gif" />
+    <Content Include="Images\icons\20x20\MyAdministration.gif" />
+    <Content Include="Images\icons\20x20\MySettings.gif" />
+    <Content Include="Images\icons\20x20\New.gif" />
+    <Content Include="Images\icons\20x20\OU.gif" />
+    <Content Include="Images\icons\20x20\Permissions.gif" />
+    <Content Include="Images\icons\20x20\PermissionType.gif" />
+    <Content Include="Images\icons\20x20\Schema.gif" />
+    <Content Include="Images\icons\20x20\ShowList.gif" />
+    <Content Include="Images\icons\20x20\ShowMembers.gif" />
+    <Content Include="Images\icons\20x20\User.gif" />
+    <Content Include="Images\icons\20x20\UserGroup.gif" />
+    <Content Include="Images\icons\20x20\View.gif" />
+    <Content Include="Images\icons\Eye.gif" />
+    <Content Include="Images\icons\Search.gif" />
+    <Content Include="Images\icons\View.gif" />
+    <Content Include="Images\icon_attachment.gif" />
+    <Content Include="Images\icon_autoFormat.gif" />
+    <Content Include="Images\icon_autoFormat_over.gif" />
+    <Content Include="Images\icon_bullets.gif" />
+    <Content Include="Images\icon_bullets_over.gif" />
+    <Content Include="Images\icon_check.gif" />
+    <Content Include="Images\icon_copy.gif" />
+    <Content Include="Images\icon_copy_over.gif" />
+    <Content Include="Images\icon_cut.gif" />
+    <Content Include="Images\icon_cut_over.gif" />
+    <Content Include="Images\icon_delete.gif" />
+    <Content Include="Images\icon_delete_over.gif" />
+    <Content Include="Images\icon_documentMap.gif" />
+    <Content Include="Images\icon_documentMap_over.gif" />
+    <Content Include="Images\icon_exchangeFolder.gif" />
+    <Content Include="Images\icon_exchangeFolder_over.gif" />
+    <Content Include="Images\icon_file.gif" />
+    <Content Include="Images\icon_fileSearch.gif" />
+    <Content Include="Images\icon_fileSearch_over.gif" />
+    <Content Include="Images\icon_file_over.gif" />
+    <Content Include="Images\icon_find.gif" />
+    <Content Include="Images\icon_find_over.gif" />
+    <Content Include="Images\icon_flag.gif" />
+    <Content Include="Images\icon_folder.gif" />
+    <Content Include="Images\icon_font.gif" />
+    <Content Include="Images\icon_font_over.gif" />
+    <Content Include="Images\icon_headerFooter.gif" />
+    <Content Include="Images\icon_headerFooter_over.gif" />
+    <Content Include="Images\icon_help.gif" />
+    <Content Include="Images\icon_help_over.gif" />
+    <Content Include="Images\icon_icon.gif" />
+    <Content Include="Images\icon_mailRecipient.gif" />
+    <Content Include="Images\icon_mailRecipientAttachment.gif" />
+    <Content Include="Images\icon_mailRecipientAttachment_over.gif" />
+    <Content Include="Images\icon_mailRecipientReview.gif" />
+    <Content Include="Images\icon_mailRecipientReview_over.gif" />
+    <Content Include="Images\icon_mailRecipient_over.gif" />
+    <Content Include="Images\icon_menu.gif" />
+    <Content Include="Images\icon_move.gif" />
+    <Content Include="Images\icon_new.gif" />
+    <Content Include="Images\icon_new_over.gif" />
+    <Content Include="Images\icon_normal.gif" />
+    <Content Include="Images\icon_normal_over.gif" />
+    <Content Include="Images\icon_open.gif" />
+    <Content Include="Images\icon_open_over.gif" />
+    <Content Include="Images\icon_outline.gif" />
+    <Content Include="Images\icon_outline_over.gif" />
+    <Content Include="Images\icon_page.gif" />
+    <Content Include="Images\icon_paragraph.gif" />
+    <Content Include="Images\icon_paragraph_over.gif" />
+    <Content Include="Images\icon_paste.gif" />
+    <Content Include="Images\icon_paste_over.gif" />
+    <Content Include="Images\icon_powerPoint.gif" />
+    <Content Include="Images\icon_powerPoint_over.gif" />
+    <Content Include="Images\icon_print.gif" />
+    <Content Include="Images\icon_printPreview.gif" />
+    <Content Include="Images\icon_printPreview_over.gif" />
+    <Content Include="Images\icon_print_over.gif" />
+    <Content Include="Images\icon_priority.gif" />
+    <Content Include="Images\icon_Properties.gif" />
+    <Content Include="Images\icon_Properties_over.gif" />
+    <Content Include="Images\icon_readingLayout.gif" />
+    <Content Include="Images\icon_readingLayout_over.gif" />
+    <Content Include="Images\icon_repeat.gif" />
+    <Content Include="Images\icon_revealFormatting.gif" />
+    <Content Include="Images\icon_revealFormatting_over.gif" />
+    <Content Include="Images\icon_routingRecipient.gif" />
+    <Content Include="Images\icon_routingRecipient_over.gif" />
+    <Content Include="Images\icon_save.gif" />
+    <Content Include="Images\icon_saveAsWebPage.gif" />
+    <Content Include="Images\icon_saveAsWebPage_over.gif" />
+    <Content Include="Images\icon_save_over.gif" />
+    <Content Include="Images\icon_stylesAndFormatting.gif" />
+    <Content Include="Images\icon_stylesAndFormatting_over.gif" />
+    <Content Include="Images\icon_tableOfContents.gif" />
+    <Content Include="Images\icon_tableOfContents_over.gif" />
+    <Content Include="Images\icon_thumbnails.gif" />
+    <Content Include="Images\icon_thumbnails_over.gif" />
+    <Content Include="Images\icon_uncheck.gif" />
+    <Content Include="Images\icon_undo.gif" />
+    <Content Include="Images\icon_webLayout.gif" />
+    <Content Include="Images\icon_webLayout_over.gif" />
+    <Content Include="Images\ico_16_00.gif" />
+    <Content Include="Images\ico_16_00_d.gif" />
+    <Content Include="Images\igsch_xpbluedn.gif" />
+    <Content Include="Images\igsch_xpblueup.gif" />
+    <Content Include="Images\image.gif" />
+    <Content Include="Images\inbox.gif" />
+    <Content Include="Images\information.gif" />
+    <Content Include="Images\information.png" />
+    <Content Include="Images\issue_folder.gif" />
+    <Content Include="Images\italic.gif" />
+    <Content Include="Images\i_aspx.gif" />
+    <Content Include="Images\i_cs.gif" />
+    <Content Include="Images\i_css.gif" />
+    <Content Include="Images\i_vb.gif" />
+    <Content Include="Images\i_xml.gif" />
+    <Content Include="Images\journal.gif" />
+    <Content Include="Images\jpg.gif" />
+    <Content Include="Images\js.gif" />
+    <Content Include="Images\jsCancelChanges.gif" />
+    <Content Include="Images\jsclosed.gif" />
+    <Content Include="Images\jsdelete.gif" />
+    <Content Include="Images\jsdropdown.gif" />
+    <Content Include="Images\jsedit.gif" />
+    <Content Include="Images\jsFilter.gif" />
+    <Content Include="Images\jsFirstPageBlockBlue.gif" />
+    <Content Include="Images\jsGroupBy.gif" />
+    <Content Include="Images\jsLastPageBlockBlue.gif" />
+    <Content Include="Images\jsNextMonth.gif" />
+    <Content Include="Images\jsNextPageBlockBlue.gif" />
+    <Content Include="Images\jsNextPageBlue.gif" />
+    <Content Include="Images\jsopen.gif" />
+    <Content Include="Images\jsprevdown.gif" />
+    <Content Include="Images\jsPreviousMonth.gif" />
+    <Content Include="Images\jsPreviousPageBlockBlue.gif" />
+    <Content Include="Images\jsPreviousPageBlue.gif" />
+    <Content Include="Images\jsprevright.gif" />
+    <Content Include="Images\jsRemFilter.gif" />
+    <Content Include="Images\jsSaveChanges.gif" />
+    <Content Include="Images\jssortasc.gif" />
+    <Content Include="Images\jssortdesc.gif" />
+    <Content Include="Images\junk.gif" />
+    <Content Include="Images\key1.gif" />
+    <Content Include="Images\key1.png" />
+    <Content Include="Images\keyboard.gif" />
+    <Content Include="Images\keyboard_header_bg.gif" />
+    <Content Include="Images\level2_group_bg.gif" />
+    <Content Include="Images\lines\dash.gif" />
+    <Content Include="Images\lines\dashminus.gif" />
+    <Content Include="Images\lines\dashplus.gif" />
+    <Content Include="Images\lines\i.gif" />
+    <Content Include="Images\lines\iminus.gif" />
+    <Content Include="Images\lines\iplus.gif" />
+    <Content Include="Images\lines\l.gif" />
+    <Content Include="Images\lines\lminus.gif" />
+    <Content Include="Images\lines\lplus.gif" />
+    <Content Include="Images\lines\minus.gif" />
+    <Content Include="Images\lines\noexpand.gif" />
+    <Content Include="Images\lines\plus.gif" />
+    <Content Include="Images\lines\r.gif" />
+    <Content Include="Images\lines\rminus.gif" />
+    <Content Include="Images\lines\rplus.gif" />
+    <Content Include="Images\lines\t.gif" />
+    <Content Include="Images\lines\tminus.gif" />
+    <Content Include="Images\lines\tplus.gif" />
+    <Content Include="Images\load.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\loading1.gif" />
+    <Content Include="Images\loading2.gif" />
+    <Content Include="Images\loading3.gif" />
+    <Content Include="Images\loading4.gif" />
+    <Content Include="Images\loading5.gif" />
+    <Content Include="Images\login.gif" />
+    <Content Include="Images\login_pic.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_header.jpg" />
+    <Content Include="Images\logo_header.png" />
+    <Content Include="Images\logo_icon.ico" />
+    <Content Include="Images\logo_icon.png" />
+    <Content Include="Images\logo_slogan_bkg.png" />
+    <Content Include="Images\manager.gif" />
+    <Content Include="Images\manager.png" />
+    <Content Include="Images\margin_clip.gif" />
+    <Content Include="Images\margin_down.gif" />
+    <Content Include="Images\margin_exclaim.gif" />
+    <Content Include="Images\margin_flag.gif" />
+    <Content Include="Images\margin_up.gif" />
+    <Content Include="Images\margin_x.gif" />
+    <Content Include="Images\menu-item-controls-bottom.gif" />
+    <Content Include="Images\menu-item-controls-bottom.png" />
+    <Content Include="Images\menu-item-controls-top.gif" />
+    <Content Include="Images\menu-item-controls-top.png" />
+    <Content Include="Images\menu-item-controls.gif" />
+    <Content Include="Images\menu-item-controls.png" />
+    <Content Include="Images\menu-item-integration-bottom.gif" />
+    <Content Include="Images\menu-item-integration-bottom.png" />
+    <Content Include="Images\menu-item-integration-divider.png" />
+    <Content Include="Images\menu-item-integration-top.gif" />
+    <Content Include="Images\menu-item-integration-top.png" />
+    <Content Include="Images\menu-item-integration.gif" />
+    <Content Include="Images\menu-item-integration.png" />
+    <Content Include="Images\menu-item-platforms-bottom.gif" />
+    <Content Include="Images\menu-item-platforms-bottom.png" />
+    <Content Include="Images\menu-item-platforms-top.gif" />
+    <Content Include="Images\menu-item-platforms-top.png" />
+    <Content Include="Images\menu-item-platforms.gif" />
+    <Content Include="Images\menu-item-platforms.png" />
+    <Content Include="Images\menu-item-showcase-bottom.gif" />
+    <Content Include="Images\menu-item-showcase-bottom.png" />
+    <Content Include="Images\menu-item-showcase-top.gif" />
+    <Content Include="Images\menu-item-showcase-top.png" />
+    <Content Include="Images\menu-item-showcase.gif" />
+    <Content Include="Images\menu-item-showcase.png" />
+    <Content Include="Images\menu_bg.gif" />
+    <Content Include="Images\menu_end.jpg" />
+    <Content Include="Images\menu_top.jpg" />
+    <Content Include="Images\mid_bg.jpg" />
+    <Content Include="Images\msg_forwarded.gif" />
+    <Content Include="Images\msg_read.gif" />
+    <Content Include="Images\msg_replied.gif" />
+    <Content Include="Images\msg_unread.gif" />
+    <Content Include="Images\MSkey3.jpg" />
+    <Content Include="Images\MSkey3.png" />
+    <Content Include="Images\MyAdministration.gif" />
+    <Content Include="Images\MySettings.gif" />
+    <Content Include="Images\nav-top-item.png" />
+    <Content Include="Images\nav_gobutton.gif" />
+    <Content Include="Images\nav_search.gif" />
+    <Content Include="Images\nav_search1.gif" />
+    <Content Include="Images\New.gif" />
+    <Content Include="Images\newheader.gif" />
+    <Content Include="Images\newitem.gif" />
+    <Content Include="Images\node_bg.gif" />
+    <Content Include="Images\notes.gif" />
+    <Content Include="Images\notreceived.gif" />
+    <Content Include="Images\numbering.gif" />
+    <Content Include="Images\ok.gif" />
+    <Content Include="Images\ok.png" />
+    <Content Include="Images\orangeDots.gif" />
+    <Content Include="Images\OrangeExplorer.gif" />
+    <Content Include="Images\outbox.gif" />
+    <Content Include="Images\pager\first.gif" />
+    <Content Include="Images\pager\last.gif" />
+    <Content Include="Images\pager\next.gif" />
+    <Content Include="Images\pager\prev.gif" />
+    <Content Include="Images\pager\slider_bg.gif" />
+    <Content Include="Images\pager\slider_grip.gif" />
+    <Content Include="Images\Pan African logo - EM.jpg" />
+    <Content Include="Images\Pan_African_logo_158x100.jpg" />
+    <Content Include="Images\Pan_African_logo_234x116.jpg" />
+    <Content Include="Images\Pan_African_logo_517x258.jpg" />
+    <Content Include="Images\paste.gif" />
+    <Content Include="Images\PermissionType.gif" />
+    <Content Include="Images\post.gif" />
+    <Content Include="Images\priority_high.gif" />
+    <Content Include="Images\priority_low.gif" />
+    <Content Include="Images\qmark.gif" />
+    <Content Include="Images\read.gif" />
+    <Content Include="Images\refresh.gif" />
+    <Content Include="Images\release.gif" />
+    <Content Include="Images\reorder.gif" />
+    <Content Include="Images\report.gif" />
+    <Content Include="Images\report.png" />
+    <Content Include="Images\reset.gif" />
+    <Content Include="Images\reset.png" />
+    <Content Include="Images\reverse.png" />
+    <Content Include="Images\root.gif" />
+    <Content Include="Images\rotating_cursor.gif" />
+    <Content Include="Images\save.gif" />
+    <Content Include="Images\save2.png" />
+    <Content Include="Images\saveClose.gif" />
+    <Content Include="Images\saveitem.gif" />
+    <Content Include="Images\saveOpen.gif" />
+    <Content Include="Images\Schema.gif" />
+    <Content Include="Images\scroller\bottom.gif" />
+    <Content Include="Images\scroller\down.gif" />
+    <Content Include="Images\scroller\down_disabled.gif" />
+    <Content Include="Images\scroller\scroller_bg.gif" />
+    <Content Include="Images\scroller\scroll_gripBg.gif" />
+    <Content Include="Images\scroller\top.gif" />
+    <Content Include="Images\scroller\up.gif" />
+    <Content Include="Images\scroller\up_disabled.gif" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search2.gif" />
+    <Content Include="Images\searchFolder.gif" />
+    <Content Include="Images\selected_item_bg.gif" />
+    <Content Include="Images\selected_tab_bg.gif" />
+    <Content Include="Images\selected_tab_left_icon.gif" />
+    <Content Include="Images\selected_tab_right_icon.gif" />
+    <Content Include="Images\send.gif" />
+    <Content Include="Images\send.png" />
+    <Content Include="Images\sendandclose_hover.gif" />
+    <Content Include="Images\send_hover.gif" />
+    <Content Include="Images\sentItems.gif" />
+    <Content Include="Images\separator.png" />
+    <Content Include="Images\sms.ico" />
+    <Content Include="Images\space.gif" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\spinner.gif" />
+    <Content Include="Images\splitter_horBg.gif" />
+    <Content Include="Images\splitter_horCol.gif" />
+    <Content Include="Images\splitter_horColHover.gif" />
+    <Content Include="Images\splitter_horExp.gif" />
+    <Content Include="Images\splitter_horExpHover.gif" />
+    <Content Include="Images\splitter_verBg.gif" />
+    <Content Include="Images\splitter_verCol.gif" />
+    <Content Include="Images\splitter_verColBg.gif" />
+    <Content Include="Images\splitter_verColHover.gif" />
+    <Content Include="Images\splitter_verExp.gif" />
+    <Content Include="Images\splitter_verExpHover.gif" />
+    <Content Include="Images\static.png" />
+    <Content Include="Images\status_blue.gif" />
+    <Content Include="Images\status_blue.png" />
+    <Content Include="Images\status_red.gif" />
+    <Content Include="Images\status_red.png" />
+    <Content Include="Images\status_yellow.gif" />
+    <Content Include="Images\status_yellow.png" />
+    <Content Include="Images\submit.png" />
+    <Content Include="Images\subscribe.gif" />
+    <Content Include="Images\sum.gif" />
+    <Content Include="Images\tab_bg.gif" />
+    <Content Include="Images\tab_left_icon.gif" />
+    <Content Include="Images\tab_right_icon.gif" />
+    <Content Include="Images\task.gif" />
+    <Content Include="Images\tasks.gif" />
+    <Content Include="Images\topItem_col.gif" />
+    <Content Include="Images\topItem_exp.gif" />
+    <Content Include="Images\top_curve.gif" />
+    <Content Include="Images\top_group_background.gif" />
+    <Content Include="Images\top_group_bg.gif" />
+    <Content Include="Images\top_item_selected_bg.gif" />
+    <Content Include="Images\top_notes.gif" />
+    <Content Include="Images\top_notes_sel.gif" />
+    <Content Include="Images\treeview_bg.gif" />
+    <Content Include="Images\treeview_headerBg.gif" />
+    <Content Include="Images\tt.gif" />
+    <Content Include="Images\underline.gif" />
+    <Content Include="Images\untitled.gif" />
+    <Content Include="Images\upd.gif" />
+    <Content Include="Images\update.png" />
+    <Content Include="Images\update_00.gif" />
+    <Content Include="Images\upload.png" />
+    <Content Include="Images\UPload_00.gif" />
+    <Content Include="Images\User.gif" />
+    <Content Include="Images\UserGroup.gif" />
+    <Content Include="Images\V.gif" />
+    <Content Include="Images\vb.gif" />
+    <Content Include="Images\vertical.png" />
+    <Content Include="Images\View.gif" />
+    <Content Include="Images\v_backgroundgradient.gif" />
+    <Content Include="Images\v_break.gif" />
+    <Content Include="Images\warning.gif" />
+    <Content Include="Images\warning.png" />
+    <Content Include="Images\worker.gif" />
+    <Content Include="Images\worker.png" />
+    <Content Include="Images\xml.gif" />
+    <Content Include="Images\xpacrobat.GIF" />
+    <Content Include="Images\xpacrobat.png" />
+    <Content Include="Images\xpexcel.GIF" />
+    <Content Include="Images\xpexcel.png" />
+    <Content Include="Images\xppowerp.GIF" />
+    <Content Include="Images\xppowerp.png" />
+    <Content Include="Images\xpurl.GIF" />
+    <Content Include="Images\xpurl.png" />
+    <Content Include="Images\xpword.GIF" />
+    <Content Include="Images\xpword.png" />
+    <Content Include="Images\zip.gif" />
+    <Content Include="Images\_add.png" />
+    <Content Include="Images\_browse-h.png" />
+    <Content Include="Images\_browse.png" />
+    <Content Include="Images\_remove.png" />
+    <Content Include="Images\_upload.png" />
+    <Content Include="Resources\css\CustomStyle.css" />
+    <Content Include="Resources\css\toastr.css" />
+    <Content Include="Resources\css\toastr.min.css" />
+    <Content Include="Resources\Download.ashx" />
+    <Content Include="Resources\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Resources\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Resources\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Resources\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Resources\MasterPages\Layout1.Master" />
+    <Content Include="Resources\MasterPages\Layout2.Master" />
+    <Content Include="Resources\MasterPages\Layout3.Master" />
+    <Content Include="Images\icons\16x16\Thumbs.db" />
+    <Content Include="Images\icons\20x20\Thumbs.db" />
+    <Content Include="Images\icons\Thumbs.db" />
+    <Content Include="Resources\MasterPages\BlankMaster.Master" />
+    <Content Include="App_Themes\Default\Default.skin" />
+    <Content Include="App_Themes\ProfileManager\Default.skin" />
+    <None Include="Scripts\jquery-3.4.1-vsdoc.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MyProfile.aspx" />
+    <Content Include="Resources\Common\crypto.txt" />
+    <Content Include="Resources\css\Custom.css" />
+    <Content Include="Resources\Dialog.aspx" />
+    <Content Include="Resources\DialogEX.aspx" />
+    <Content Include="Resources\Download.aspx" />
+    <Content Include="Resources\ExportTo.aspx" />
+    <Content Include="Resources\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resources\PleaseWait.aspx" />
+    <Content Include="Resources\Scripts\AsyncFileUploadValidationPlugin.js" />
+    <Content Include="Resources\Scripts\bootstrap.min.js" />
+    <Content Include="Resources\Scripts\customsite.js" />
+    <Content Include="Resources\Scripts\drawcharts.js" />
+    <Content Include="Resources\Scripts\Global.js" />
+    <Content Include="Resources\Scripts\google_charts_loader.js" />
+    <Content Include="Resources\Scripts\jquery-1.10.2.js" />
+    <Content Include="Resources\Scripts\jquery-1.6.3.min.js" />
+    <Content Include="Resources\Scripts\Keypad.js" />
+    <Content Include="Resources\Scripts\resizable-tables.js" />
+    <Content Include="Resources\Scripts\showModalDialog.js" />
+    <Content Include="Resources\Scripts\sweetalert.js" />
+    <Content Include="Resources\Scripts\sweetalert.min.js" />
+    <Content Include="Resources\Scripts\toastr.js" />
+    <Content Include="Resources\Timeout.aspx" />
+    <Content Include="Resources\uControls\LinkPager.ascx" />
+    <Content Include="Resources\uControls\Pager.ascx" />
+    <Content Include="Resources\uControls\ucAsyncFileUploadControl.ascx" />
+    <Content Include="Resources\uControls\ucFileListControl.ascx" />
+    <Content Include="Resources\Xml\menu - Copy.xml" />
+    <Content Include="Resources\Xml\menu.xml" />
+    <Content Include="Resources\Xml\menuAppPart.xml" />
+    <Content Include="Resources\Xml\menuAuditLogs.xml" />
+    <Content Include="Resources\Xml\menuAuthorisedOperators.xml" />
+    <Content Include="Resources\Xml\menuGroups.xml" />
+    <Content Include="Resources\Xml\menuOrganizationalUnits.xml" />
+    <Content Include="Resources\Xml\menuRoles.xml" />
+    <Content Include="Resources\Xml\menuUsers.xml" />
+    <Content Include="Resources\Xml\sitemap.xml" />
+    <Content Include="Resources\Xml\tabGroup.xml" />
+    <Content Include="Resources\Xml\tabProfileManager.xml" />
+    <Content Include="Resources\Xml\tabRole.xml" />
+    <Content Include="Resources\Xml\tabSysConfig.xml" />
+    <Content Include="Resources\Xml\tabUser.xml" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Utilities\ProfileManager\ChangePassword.aspx" />
+    <Content Include="Utilities\ProfileManager\CtlForgottenPassword.ascx" />
+    <Content Include="Utilities\ProfileManager\CtlLogin.ascx" />
+    <Content Include="Utilities\ProfileManager\Default.aspx" />
+    <Content Include="Utilities\ProfileManager\ForgottenPassword.aspx" />
+    <Content Include="Utilities\ProfileManager\Group.aspx" />
+    <Content Include="Utilities\ProfileManager\OrgUnit.aspx" />
+    <Content Include="Utilities\ProfileManager\Role.aspx" />
+    <Content Include="Utilities\ProfileManager\Selector.aspx" />
+    <Content Include="Utilities\ProfileManager\UFile.aspx" />
+    <Content Include="Utilities\ProfileManager\User.aspx" />
+    <Content Include="Utilities\Settings.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDenied.aspx.designer.vb">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.vb">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\AssignReview.aspx.designer.vb">
+      <DependentUpon>AssignReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\AssignReview.aspx.vb">
+      <DependentUpon>AssignReview.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\AuthoriseAssignment.aspx.designer.vb">
+      <DependentUpon>AuthoriseAssignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\AuthoriseAssignment.aspx.vb">
+      <DependentUpon>AuthoriseAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\AuthoriseReview.aspx.designer.vb">
+      <DependentUpon>AuthoriseReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\AuthoriseReview.aspx.vb">
+      <DependentUpon>AuthoriseReview.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\RecordReview.aspx.designer.vb">
+      <DependentUpon>RecordReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\RecordReview.aspx.vb">
+      <DependentUpon>RecordReview.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\Reviews.aspx.designer.vb">
+      <DependentUpon>Reviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Reviews.aspx.vb">
+      <DependentUpon>Reviews.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\SystemSetup.aspx.designer.vb">
+      <DependentUpon>SystemSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\SystemSetup.aspx.vb">
+      <DependentUpon>SystemSetup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\UpdateReviewRecord.aspx.designer.vb">
+      <DependentUpon>UpdateReviewRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\UpdateReviewRecord.aspx.vb">
+      <DependentUpon>UpdateReviewRecord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\ViewReviews.aspx.designer.vb">
+      <DependentUpon>ViewReviews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\ViewReviews.aspx.vb">
+      <DependentUpon>ViewReviews.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App\ViewUpdateReview.aspx.designer.vb">
+      <DependentUpon>ViewUpdateReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\ViewUpdateReview.aspx.vb">
+      <DependentUpon>ViewUpdateReview.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ConfigureApp.aspx.designer.vb">
+      <DependentUpon>ConfigureApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureApp.aspx.vb">
+      <DependentUpon>ConfigureApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CustomDelegateClass.vb" />
+    <Compile Include="Helpers\CustomPageChangeArgs.vb" />
+    <Compile Include="Helpers\GridViewGroup.vb" />
+    <Compile Include="Helpers\GridViewGroupList.vb" />
+    <Compile Include="Helpers\GridViewHelper.vb" />
+    <Compile Include="Helpers\GridViewSummary.vb" />
+    <Compile Include="Helpers\GridViewSummaryList.vb" />
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mdGeneralFunctions.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyProfile.aspx.designer.vb">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile.aspx.vb">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\ClassesAndEnums\RecordFilterOption.vb" />
+    <Compile Include="Resources\ClassesAndEnums\ReviewFileTypes.vb" />
+    <Compile Include="Resources\ClassesAndEnums\ServiceActionResult.vb" />
+    <Compile Include="Resources\Common\Common.vb" />
+    <Compile Include="Resources\Common\CustomLINQtoDataSetMethods.vb" />
+    <Compile Include="Resources\Common\DataXML.vb" />
+    <Compile Include="Resources\Common\Encryption.vb" />
+    <Compile Include="Resources\Common\LicenseManager.vb" />
+    <Compile Include="Resources\Common\MultiViewPages.vb" />
+    <Compile Include="Resources\Common\NLogger.vb" />
+    <Compile Include="Resources\Common\ObjectShredder.vb" />
+    <Compile Include="Resources\Common\PageBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\Common\PublicKey.vb" />
+    <Compile Include="Resources\ClassesAndEnums\RecommendationTypes.vb" />
+    <Compile Include="Resources\Common\RegexUtilities.vb" />
+    <Compile Include="Resources\ClassesAndEnums\ReviewTypes.vb" />
+    <Compile Include="Resources\Common\SharedObj.vb" />
+    <Compile Include="Resources\Common\TextFileCrypto.vb" />
+    <Compile Include="Resources\Common\TripleDES.vb" />
+    <Compile Include="Resources\Common\UserControlBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\Dialog.aspx.designer.vb">
+      <DependentUpon>Dialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialog.aspx.vb">
+      <DependentUpon>Dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\DialogEX.aspx.designer.vb">
+      <DependentUpon>DialogEX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DialogEX.aspx.vb">
+      <DependentUpon>DialogEX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\Download.ashx.vb">
+      <DependentUpon>Download.ashx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\Download.aspx.designer.vb">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Download.aspx.vb">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\ExportTo.aspx.designer.vb">
+      <DependentUpon>ExportTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExportTo.aspx.vb">
+      <DependentUpon>ExportTo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\MasterPages\BlankMaster.Master.designer.vb">
+      <DependentUpon>BlankMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MasterPages\BlankMaster.Master.vb">
+      <DependentUpon>BlankMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout1.Master.designer.vb">
+      <DependentUpon>Layout1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout1.Master.vb">
+      <DependentUpon>Layout1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout2.Master.designer.vb">
+      <DependentUpon>Layout2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout2.Master.vb">
+      <DependentUpon>Layout2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout3.Master.designer.vb">
+      <DependentUpon>Layout3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MasterPages\Layout3.Master.vb">
+      <DependentUpon>Layout3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\PleaseWait.aspx.designer.vb">
+      <DependentUpon>PleaseWait.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PleaseWait.aspx.vb">
+      <DependentUpon>PleaseWait.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\Services\HoldService.vb" />
+    <Compile Include="Resources\Services\ITService.vb" />
+    <Compile Include="Resources\Services\ServiceBase.vb" />
+    <Compile Include="Resources\Services\SetupService.vb" />
+    <Compile Include="Resources\Timeout.aspx.designer.vb">
+      <DependentUpon>Timeout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Timeout.aspx.vb">
+      <DependentUpon>Timeout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\uControls\LinkPager.ascx.designer.vb">
+      <DependentUpon>LinkPager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\uControls\LinkPager.ascx.vb">
+      <DependentUpon>LinkPager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\uControls\Pager.ascx.designer.vb">
+      <DependentUpon>Pager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\uControls\Pager.ascx.vb">
+      <DependentUpon>Pager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\uControls\ucAsyncFileUploadControl.ascx.designer.vb">
+      <DependentUpon>ucAsyncFileUploadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\uControls\ucAsyncFileUploadControl.ascx.vb">
+      <DependentUpon>ucAsyncFileUploadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\uControls\ucFileListControl.ascx.designer.vb">
+      <DependentUpon>ucFileListControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\uControls\ucFileListControl.ascx.vb">
+      <DependentUpon>ucFileListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources\ViewModels\ActionPlanVm.vb" />
+    <Compile Include="Resources\ViewModels\BranchReviewVm.vb" />
+    <Compile Include="Resources\ViewModels\BranchVm.vb" />
+    <Compile Include="Resources\ViewModels\CorrectiveActionVm.vb" />
+    <Compile Include="Resources\ViewModels\EmployeeVm.vb" />
+    <Compile Include="Resources\ViewModels\FindingVm.vb" />
+    <Compile Include="Resources\ViewModels\FollowUpDetailVm.vb" />
+    <Compile Include="Resources\ViewModels\FollowUpVm.vb" />
+    <Compile Include="Resources\ViewModels\KeyValueObject.vb" />
+    <Compile Include="Resources\ViewModels\ObservationStatusVm.vb" />
+    <Compile Include="Resources\ViewModels\ObservationVm.vb" />
+    <Compile Include="Resources\ViewModels\RecommendationVm.vb" />
+    <Compile Include="Resources\ViewModels\ReviewFileVm.vb" />
+    <Compile Include="Resources\ViewModels\ReviewVm.vb" />
+    <Compile Include="Resources\ViewModels\RiskCategoryVm.vb" />
+    <Compile Include="Resources\ViewModels\RiskLevelVm.vb" />
+    <Compile Include="Utilities\ProfileManager\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\CtlForgottenPassword.ascx.designer.vb">
+      <DependentUpon>CtlForgottenPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\CtlForgottenPassword.ascx.vb">
+      <DependentUpon>CtlForgottenPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\CtlLogin.ascx.designer.vb">
+      <DependentUpon>CtlLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\CtlLogin.ascx.vb">
+      <DependentUpon>CtlLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\ForgottenPassword.aspx.designer.vb">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\ForgottenPassword.aspx.vb">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Group.aspx.designer.vb">
+      <DependentUpon>Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Group.aspx.vb">
+      <DependentUpon>Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\OrgUnit.aspx.designer.vb">
+      <DependentUpon>OrgUnit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\OrgUnit.aspx.vb">
+      <DependentUpon>OrgUnit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Role.aspx.designer.vb">
+      <DependentUpon>Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Role.aspx.vb">
+      <DependentUpon>Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Selector.aspx.designer.vb">
+      <DependentUpon>Selector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\Selector.aspx.vb">
+      <DependentUpon>Selector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\UFile.aspx.designer.vb">
+      <DependentUpon>UFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\UFile.aspx.vb">
+      <DependentUpon>UFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\User.aspx.designer.vb">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProfileManager\User.aspx.vb">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\Settings.aspx.designer.vb">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Settings.aspx.vb">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_Start\" />
+    <Folder Include="UploadFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FRITS.DAL\FRITS.DAL.vbproj">
+      <Project>{4f979a9e-ef2e-4bf4-bc68-780d0862b081}</Project>
+      <Name>FRITS.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54786</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44342/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

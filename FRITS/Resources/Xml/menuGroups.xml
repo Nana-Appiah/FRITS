@@ -1,0 +1,9 @@
+<items>
+  <item Text="Add New" Look-LeftIconUrl="usergroup.gif" Look-HoverLeftIconUrl="usergroup.gif"
+		NavigateUrl="javascript:AddGroup();" />
+  <item Text="Delete" Look-LeftIconUrl="icon_delete.gif" Look-HoverLeftIconUrl="icon_delete_over.gif"
+		NavigateUrl="javascript:DeleteGroup();" />
+  <item Text="Refresh" Look-LeftIconUrl="refresh.gif" Look-HoverLeftIconUrl="refresh.gif"
+    NavigateUrl="javascript:ReloadGroup();" />
+  <item Text="Properties" Look-LeftIconUrl="config.gif" Look-HoverLeftIconUrl="config.gif" NavigateUrl="javascript:GroupProperties();" />
+</items>

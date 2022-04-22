@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F979A9E-EF2E-4BF4-BC68-780D0862B081}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FRITS.DAL</RootNamespace>
+    <AssemblyName>FRITS.DAL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FRITS.DAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FRITS.DAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDbContext.vb" />
+    <Compile Include="Branch.vb" />
+    <Compile Include="BranchContext.vb" />
+    <Compile Include="EntityDbConfig\ActionPlanDbConfig.vb" />
+    <Compile Include="EntityDbConfig\BranchReviewDbConfig.vb" />
+    <Compile Include="EntityDbConfig\CorrectiveActionDbConfig.vb" />
+    <Compile Include="EntityDbConfig\FindingDbConfig.vb" />
+    <Compile Include="EntityDbConfig\FollowUpDbConfig.vb" />
+    <Compile Include="EntityDbConfig\FollowUpDetailDbConfig.vb" />
+    <Compile Include="EntityDbConfig\ObservationDbConfig.vb" />
+    <Compile Include="EntityDbConfig\ObservationStatusDbConfig.vb" />
+    <Compile Include="EntityDbConfig\RecommendationDbConfig.vb" />
+    <Compile Include="EntityDbConfig\ReviewDbConfig.vb" />
+    <Compile Include="EntityDbConfig\ReviewFileDbConfig.vb" />
+    <Compile Include="EntityDbConfig\RiskCategoryConfig.vb" />
+    <Compile Include="EntityDbConfig\RiskLevelDbConfig.vb" />
+    <Compile Include="Interfaces\IEntityBase.vb" />
+    <Compile Include="Migrations\202108021109073_Initial_Database_Schema.designer.vb">
+      <DependentUpon>202108021109073_Initial_Database_Schema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108021109073_Initial_Database_Schema.vb" />
+    <Compile Include="Migrations\202108021156462_modified_findingno_reviewNo_observationNo.designer.vb">
+      <DependentUpon>202108021156462_modified_findingno_reviewNo_observationNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108021156462_modified_findingno_reviewNo_observationNo.vb" />
+    <Compile Include="Migrations\202108091137168_removed_fields_from_findings_and_added_it_to_observation.designer.vb">
+      <DependentUpon>202108091137168_removed_fields_from_findings_and_added_it_to_observation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108091137168_removed_fields_from_findings_and_added_it_to_observation.vb" />
+    <Compile Include="Migrations\202108110859403_added_management_response_to_observation.designer.vb">
+      <DependentUpon>202108110859403_added_management_response_to_observation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108110859403_added_management_response_to_observation.vb" />
+    <Compile Include="Migrations\202108111022283_added_isSubmitted_to_branch_review.designer.vb">
+      <DependentUpon>202108111022283_added_isSubmitted_to_branch_review.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108111022283_added_isSubmitted_to_branch_review.vb" />
+    <Compile Include="Migrations\202108111256239_added_corrective_action_table.designer.vb">
+      <DependentUpon>202108111256239_added_corrective_action_table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108111256239_added_corrective_action_table.vb" />
+    <Compile Include="Migrations\202108121353227_added_observation_status_Id_to_followup_details.designer.vb">
+      <DependentUpon>202108121353227_added_observation_status_Id_to_followup_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108121353227_added_observation_status_Id_to_followup_details.vb" />
+    <Compile Include="Migrations\202108131304407_added_schedule_officer_response_and_assumptions_mitigating_control_assumptions.designer.vb">
+      <DependentUpon>202108131304407_added_schedule_officer_response_and_assumptions_mitigating_control_assumptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108131304407_added_schedule_officer_response_and_assumptions_mitigating_control_assumptions.vb" />
+    <Compile Include="Migrations\202108131559421_added_review_file_table.designer.vb">
+      <DependentUpon>202108131559421_added_review_file_table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108131559421_added_review_file_table.vb" />
+    <Compile Include="Migrations\202108171502108_added_review_closing_fields_to_review_and_branchreview.designer.vb">
+      <DependentUpon>202108171502108_added_review_closing_fields_to_review_and_branchreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108171502108_added_review_closing_fields_to_review_and_branchreview.vb" />
+    <Compile Include="Migrations\Configuration.vb" />
+    <Compile Include="Models\ActionPlan.vb" />
+    <Compile Include="Models\BranchReview.vb" />
+    <Compile Include="Models\CorrectiveAction.vb" />
+    <Compile Include="Models\EntityBase.vb" />
+    <Compile Include="Models\Finding.vb" />
+    <Compile Include="Models\FollowUp.vb" />
+    <Compile Include="Models\FollowUpDetail.vb" />
+    <Compile Include="Models\Observation.vb" />
+    <Compile Include="Models\ObservationStatus.vb" />
+    <Compile Include="Models\Recommendation.vb" />
+    <Compile Include="Models\Review.vb" />
+    <Compile Include="Models\ReviewFile.vb" />
+    <Compile Include="Models\RiskCategory.vb" />
+    <Compile Include="Models\RiskLevel.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202108021109073_Initial_Database_Schema.resx">
+      <DependentUpon>202108021109073_Initial_Database_Schema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108021156462_modified_findingno_reviewNo_observationNo.resx">
+      <DependentUpon>202108021156462_modified_findingno_reviewNo_observationNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108091137168_removed_fields_from_findings_and_added_it_to_observation.resx">
+      <DependentUpon>202108091137168_removed_fields_from_findings_and_added_it_to_observation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108110859403_added_management_response_to_observation.resx">
+      <DependentUpon>202108110859403_added_management_response_to_observation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108111022283_added_isSubmitted_to_branch_review.resx">
+      <DependentUpon>202108111022283_added_isSubmitted_to_branch_review.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108111256239_added_corrective_action_table.resx">
+      <DependentUpon>202108111256239_added_corrective_action_table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108121353227_added_observation_status_Id_to_followup_details.resx">
+      <DependentUpon>202108121353227_added_observation_status_Id_to_followup_details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108131304407_added_schedule_officer_response_and_assumptions_mitigating_control_assumptions.resx">
+      <DependentUpon>202108131304407_added_schedule_officer_response_and_assumptions_mitigating_control_assumptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108131559421_added_review_file_table.resx">
+      <DependentUpon>202108131559421_added_review_file_table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108171502108_added_review_closing_fields_to_review_and_branchreview.resx">
+      <DependentUpon>202108171502108_added_review_closing_fields_to_review_and_branchreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

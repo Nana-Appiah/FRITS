@@ -1,0 +1,22 @@
+<SiteMap>
+  <node Text="Dashboard" ImageUrl="icon_page.gif" NavigateUrl="~/Default.aspx" />
+  <node Text="Pre Agreement Disclosure" ImageUrl="icon_page.gif" NavigateUrl="~/App/PreAgreement.aspx" />
+  <node Text="Offer Letter" ImageUrl="icon_page.gif" NavigateUrl="~/App/OfferLetterReport.aspx" /> 
+  <node Text="Loan Release Letter" ImageUrl="icon_page.gif" NavigateUrl="~/App/ReleaseLetter.aspx" />
+  <node Text="GR Rates" ImageUrl="icon_page.gif" NavigateUrl="~/App/GRRateSetting.aspx" />
+
+  <node Text="Momo Loan" ImageUrl="icon_folder.gif">
+    <node Text="Create" ImageUrl="icon_page.gif" NavigateUrl="~/App/OverdraftDetail.aspx" />
+    <node Text="Offer Letter" ImageUrl="icon_page.gif" NavigateUrl="~/App/OverdraftOfferLetter.aspx" />
+  </node>
+  
+  <node Text="Utilities" ImageUrl="icon_folder.gif">
+    <node Text="Profile Manager" ImageUrl="icon_page.gif" NavigateUrl="~/ProfileManager/Default.aspx" />
+    <node Text="Settings" ImageUrl="icon_page.gif" NavigateUrl="~/Utilities/Settings.aspx" />
+  </node>
+  <node Text="Access Denied" ImageUrl="icon_page.gif" NavigateUrl="~/AccessDenied.aspx" />
+  <node Text="My Profile" ImageUrl="icon_page.gif" NavigateUrl="~/MyProfile.aspx" />
+</SiteMap>
+
+
+

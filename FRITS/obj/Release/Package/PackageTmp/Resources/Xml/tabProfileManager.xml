@@ -1,0 +1,8 @@
+<SiteMap>
+	<item Text="General" />
+	<item Text="Users" />
+	<item Text="Groups" />
+	<item Text="Roles" />  
+	<item Text="Organizational Units" />
+	<item Text="Audit Logs" />
+</SiteMap>

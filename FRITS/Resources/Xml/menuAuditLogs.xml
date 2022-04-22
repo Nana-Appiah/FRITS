@@ -1,0 +1,4 @@
+<items>
+	<item Text="Refresh" Look-LeftIconUrl="refresh.gif" Look-HoverLeftIconUrl="refresh.gif"
+		NavigateUrl="javascript:ReloadAuditLogs();" />
+</items>

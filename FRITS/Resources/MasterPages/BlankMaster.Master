@@ -1,0 +1,57 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="BlankMaster.master.vb" Inherits="FRITS.BlankMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  
+     <link href="../css/CustomStyle.css" rel="stylesheet" />    
+    <script type="text/javascript" src="../Resources/Scripts/Global.js"></script>
+    <script type="text/javascript" src="../Resources/Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../Resources/Scripts/resizable-tables.js"></script>
+    <script type="text/javascript" src="../Resources/Scripts/toastr.js"></script>
+
+    <script type="text/javascript">
+
+         function license_dialogshow(dialog) {
+             dialog.set_value(null);
+         }
+
+         function license_dialogclose(dialog) {
+             if (dialog.Id == 'LicenseDialog') LicenseDialog.set_value(LicenseDialog.get_result());
+         }
+
+         function license_toggle() {
+             if (LicenseDialog.get_isShowing()) {
+                 LicenseDialog.Close();
+             }
+             else {
+                 LicenseDialog.Show();
+             }
+         }
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+          <asp:ScriptManager ID="BlankScriptManager" runat="server">
+        </asp:ScriptManager>       
+        <div>
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tr>
+                    <td>                      
+                        <br />
+                          <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>

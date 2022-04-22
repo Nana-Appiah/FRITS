@@ -1,0 +1,259 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Layout2.Master.vb" Inherits="FRITS.Layout2" %>
+
+<%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type="text/javascript">
+        var basePath = '<%=VirtualPathUtility.ToAbsolute("~/")%>';
+    </script>
+    <title>Pan-African FRITS</title>
+    <link href="../images/favicon.ico" rel="shortcut icon" />
+    <link href="../css/CustomStyle.css" rel="stylesheet" />
+    <link href="../css/toastr.css" rel="stylesheet" />
+
+   
+    <script type="text/javascript" src="../Resources/Scripts/resizable-tables.js"></script>
+    <script type="text/javascript" src="../Resources/Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../Resources/Scripts/toastr.js"></script>
+     <script type="text/javascript" src="../Resources/Scripts/Global.js"></script>
+      
+     <script type="text/javascript" src="../Resources/Scripts/customsite.js"></script>
+ <%--    <script type="text/javascript" src="../Resources/Scripts/showModalDialog.js"></script>--%>
+   
+
+    <script type="text/javascript">
+	
+            function license_dialogshow(dialog) {
+                dialog.set_value(null);
+            }
+
+            function license_dialogclose(dialog) {
+                if (dialog.Id == 'LicenseDialog') LicenseDialog.set_value(LicenseDialog.get_result());
+            }
+
+            function license_toggle() {
+                if (LicenseDialog.get_isShowing()) {
+                    LicenseDialog.Close();
+                }
+                else {
+                    LicenseDialog.Show();
+                }
+            }
+
+    </script>
+   
+    <%--<script type="text/javascript">
+        $("[src*=plus]").on("click", function () {
+            $(this).closest("tr").after("<tr><td></td><td colspan = '999'>" + $(this).next().html() + "</td></tr>")
+            $(this).attr("src", "images/minus.png");
+        });
+        $("[src*=minus]").on("click", function () {
+            $(this).attr("src", "images/plus.png");
+            $(this).closest("tr").next().remove();
+        });
+    </script>--%>     
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frm" runat="server">
+        <asp:ScriptManager ID="ScriptManager" runat="server">
+            <Scripts>
+                 <asp:ScriptReference Path="~/Resources/Scripts/sweetalert.min.js" ScriptMode="Auto" />
+            </Scripts>
+        </asp:ScriptManager>
+        <!--Header-->
+        <asp:Timer ID="Timer" runat="server" />
+        <!--<div id="header"> </div>-->
+        <!--Content -->
+        <div id="content">
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tr>
+                    <td class="HeaderBg">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                                <td valign="top" height="50%" align="left">
+                                    <img alt="" src="../images/Pan_African_logo_158x100.jpg" style="border: 0px;" />
+                                </td>
+                                <td valign="middle" height="50%" align="right">
+                                    <table cellspacing="0" cellpadding="0" border="0" align="right">
+                                        <tr>
+                                            <td valign="top">
+                                                <table cellspacing="0" cellpadding="0" border="0" align="right">
+                                                    <tr>
+                                                        <td class="logoutLink" valign="middle" align="right" width="100%" nowrap="nowrap">
+                                                            <asp:Label ID="lblCurrentUser" runat="server"></asp:Label><asp:Label ID="lblLogout"
+                                                                runat="server"></asp:Label>
+                                                        </td>
+                                                        <td width="15" height="25" nowrap="nowrap">
+                                                            <img src="../images/spacer.gif" width="15" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="middle">
+                                                <table cellspacing="0" cellpadding="0" border="0" align="right">
+                                                    <tr>
+                                                        <td height="20" nowrap="nowrap">
+                                                            <asp:Label ID="lblBranchName" runat="server" CssClass="bannerLink"></asp:Label>
+                                                        </td>
+                                                        <td height="20" width="25" nowrap="nowrap"></td>
+                                                        <td height="20" valign="middle" nowrap="nowrap">
+                                                            <asp:Label ID="lblLink" runat="server" CssClass="bannerLink"></asp:Label>
+                                                        </td>
+                                                        <td height="20" width="15" nowrap="nowrap">
+                                                            <img src="../images/spacer.gif" width="15" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5" style="background-color: #BED600;"></td>
+                </tr>
+                <tr>
+                    <td height="25" class="ToolbarPane">
+                        <table cellspacing="0" cellpadding="0" width="100%" style="height: 25px">
+                            <tr>
+                                <td style="padding-left: 20px;" nowrap="nowrap"></td>
+                                <td align="left" width="100%">
+                                    <ComponentArt:Menu ID="Menu" Orientation="Horizontal" CssClass="TopGroup" DefaultGroupCssClass="MenuGroup"
+                                        DefaultSubGroupExpandOffsetX="-10" DefaultSubGroupExpandOffsetY="25" SiteMapXmlFile="~/Resources/XML/menu.xml"
+                                        DefaultItemLookId="DefaultItemLook" TopGroupItemSpacing="2" DefaultGroupItemSpacing="2"
+                                        ImagesBaseUrl="~/images/" ExpandDelay="50" runat="server">
+                                        <ItemLooks>
+                                            <ComponentArt:ItemLook LookId="TopItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover"
+                                                ActiveCssClass="MenuItemActive" ExpandedCssClass="MenuItemExpanded" LeftIconUrl="grayDots.gif"
+                                                HoverLeftIconUrl="orangeDots.gif" ExpandedLeftIconUrl="grayDots.gif" LeftIconWidth="12"
+                                                LeftIconHeight="8" LabelPaddingLeft="5" LabelPaddingRight="12" LabelPaddingTop="5"
+                                                LabelPaddingBottom="5" />
+                                            <ComponentArt:ItemLook LookId="DefaultItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover"
+                                                ActiveCssClass="MenuItemActive" ExpandedCssClass="MenuItemExpanded" LeftIconUrl="grayDots.gif"
+                                                HoverLeftIconUrl="orangeDots.gif" ExpandedLeftIconUrl="grayDots.gif" LeftIconWidth="12"
+                                                LeftIconHeight="8" LabelPaddingLeft="5" LabelPaddingRight="12" LabelPaddingTop="5"
+                                                LabelPaddingBottom="5" RightIconUrl="arrow_white.gif" RightIconWidth="15" RightIconHeight="10"
+                                                RightIconVisibility="WhenExpandable" />
+                                            <ComponentArt:ItemLook LookId="ItemBreak" ImageUrl="break.gif" CssClass="MenuBreak" />
+                                            <ComponentArt:ItemLook LookId="SpacerItemLook" CssClass="TopMenuItem" LabelPaddingLeft="15"
+                                                LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+                                        </ItemLooks>
+                                    </ComponentArt:Menu>
+                                </td>
+                                <td style="padding-right: 15px;" align="right" nowrap="nowrap">
+                                    <asp:Label ID="lblLastLogin" Style="color: #005B82;" runat="server"></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="10" class="ToolbarBtmBg"></td>
+                </tr>
+                <tr>
+                    <td height="25" class="Breadcramp" style="padding-left: 15px; padding-right: 15px;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding-left: 10px" nowrap="nowrap">You are here :
+                                </td>
+                                <td width="100%" nowrap="nowrap">
+                                    <ComponentArt:SiteMap ID="SiteMap" runat="server" CssClass="SiteMap" SiteMapXmlFile="~/Resources/XML/SiteMap.xml"
+                                        SiteMapLayout="Breadcrumbs" RootNodeCssClass="BreadcrumbsNode" ParentNodeCssClass="BreadcrumbsNode"
+                                        LeafNodeCssClass="BreadcrumbsNode" BreadcrumbsSeparatorString="" DefaultImageWidth="32"
+                                        DefaultImageHeight="16" ImagesBaseUrl="~/images/" Width="100%">
+                                    </ComponentArt:SiteMap>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr style="height: 1px; color: #01597D;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ContentPane" valign="top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <ComponentArt:Dialog ID="LicenseDialog" runat="server" Height="150" Width="300" OffsetX="0"
+                            OffsetY="0" Modal="true" AnimationSlideType="linear" AnimationDirectionElement="LicenseDialog"
+                            ContentCssClass="contentCss" FooterCssClass="footerCss" HeaderCssClass="headerCss"
+                            CssClass="dialogCss" AnimationDuration="200" AllowDrag="true" Alignment="MiddleCentre">
+                            <ClientEvents>
+                                <OnShow EventHandler="license_dialogshow" />
+                            </ClientEvents>
+                            <Header>
+                                <table cellpadding="0" cellspacing="0" width="458" onmousedown="LicenseDialog.StartDrag(event);">
+                                    <tr>
+                                        <td width="5">
+                                            <img style="display: block;" src="../images/top_left.gif" />
+                                        </td>
+                                        <td style="background-image: url(../images/top.gif); padding: 10px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td valign="middle" style="color: White; font-size: 15px; font-family: Arial; font-weight: bold;">License
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="5">
+                                            <img style="display: block;" src="../images/top_right.gif" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </Header>
+                            <Content>
+                                <table cellpadding="0" cellspacing="0" width="458">
+                                    <tr>
+                                        <td style="background-image: url(../images/left.gif);" width="5"></td>
+                                        <td style="background-color: white; font-size: 12px; font-family: Arial; padding: 10px;">
+                                            <p>
+                                                <asp:Label ID="txtLicenseError" runat="server"></asp:Label>
+                                            </p>
+                                        </td>
+                                        <td style="background-image: url(../images/right.gif);" width="5"></td>
+                                    </tr>
+                                </table>
+                            </Content>
+                            <Footer>
+                                <table cellpadding="0" cellspacing="0" width="458">
+                                    <tr>
+                                        <td width="5">
+                                            <img style="display: block;" src="../images/bottom_left.gif" />
+                                        </td>
+                                        <td style="background-image: url(../images/bottom.gif); background-color: #F0F0F0;">
+                                            <img style="display: block;" src="../images/spacer.gif" height="4" width="448" />
+                                        </td>
+                                        <td width="5">
+                                            <img style="display: block;" src="../images/bottom_right.gif" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </Footer>
+                        </ComponentArt:Dialog>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Footer -->
+        <div id="footer">
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tr>
+                    <td height="5" style="background-color: #BED600;"></td>
+                </tr>
+                <tr>
+                    <td height="25" class="FooterPane Copyright" align="center">Copyright © 2015 Pan-African Savings and Loans Company Limited. All Rights Reserved.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:Literal ID="ltlText" runat="server"></asp:Literal>
+    </form>
+</body>
+</html>

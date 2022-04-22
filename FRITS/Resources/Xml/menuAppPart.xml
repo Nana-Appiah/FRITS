@@ -1,0 +1,6 @@
+﻿<items>
+  <item Text="Add Operator" Look-LeftIconUrl="icons/16x16/UserGroup.gif" Look-HoverLeftIconUrl="icons/16x16/UserGroup.gif"
+		NavigateUrl="javascript:AddOperator();" />
+  <item Text="Refresh" Look-LeftIconUrl="refresh.gif" Look-HoverLeftIconUrl="refresh.gif"
+     NavigateUrl="javascript:ReloadOperator();" />
+</items>

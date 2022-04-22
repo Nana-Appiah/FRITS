@@ -1,0 +1,7 @@
+<items>
+	<item Text="Add New" Look-LeftIconUrl="icon_new.gif" Look-HoverLeftIconUrl="icon_new_over.gif"
+		NavigateUrl="javascript:AddOU();" />
+	<item Text="Delete" Look-LeftIconUrl="icon_delete.gif" Look-HoverLeftIconUrl="icon_delete_over.gif"
+		NavigateUrl="javascript:DeleteOU();" />
+	<item Text="Properties" NavigateUrl="javascript:OUProperties();" />
+</items>

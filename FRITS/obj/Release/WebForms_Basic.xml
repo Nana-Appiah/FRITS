@@ -1,0 +1,6516 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FRITS
+</name>
+</assembly>
+<members>
+<member name="T:FRITS.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FRITS.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:FRITS.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:FRITS.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:FRITS.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:FRITS.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:FRITS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FRITS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FRITS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:FRITS.AssignReview._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._reviewTitle">
+<summary>
+reviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._cboAssignBranch">
+<summary>
+cboAssignBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valcboAssignBranch">
+<summary>
+valcboAssignBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._cboToDepartment">
+<summary>
+cboToDepartment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valcboToDepartment">
+<summary>
+valcboToDepartment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._cboToEmployee">
+<summary>
+cboToEmployee control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valcboToEmployee">
+<summary>
+valcboToEmployee control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._txtReviewFrom">
+<summary>
+txtReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._ibtnFrom">
+<summary>
+ibtnFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._ajtCalFilterFrom">
+<summary>
+ajtCalFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._txtReviewTo">
+<summary>
+txtReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._ibtnTo">
+<summary>
+ibtnTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._ajtCalFilterTo">
+<summary>
+ajtCalFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valtxtReviewFrom">
+<summary>
+valtxtReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valtxtReviewTo">
+<summary>
+valtxtReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._txtInstruction">
+<summary>
+txtInstruction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._valtxtInstruction">
+<summary>
+valtxtInstruction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._btnAssign">
+<summary>
+btnAssign control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._grdAssignList">
+<summary>
+grdAssignList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._btnSaveAssignment">
+<summary>
+btnSaveAssignment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._btnCancelAssignment">
+<summary>
+btnCancelAssignment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AssignReview._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseAssignment._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseAssignment._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseAssignment._grdAssignList">
+<summary>
+grdAssignList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseAssignment._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._rwSearch">
+<summary>
+rwSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._txtSearchReview">
+<summary>
+txtSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._btnSearchReview">
+<summary>
+btnSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._grdReviews">
+<summary>
+grdReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.AuthoriseReview._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboReviewBranch">
+<summary>
+cboReviewBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._reviewTitle">
+<summary>
+reviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cpFilter">
+<summary>
+cpFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblFilterLable">
+<summary>
+lblFilterLable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cpFilberBody">
+<summary>
+cpFilberBody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFilterReviewFrom">
+<summary>
+txtFilterReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ibtnFilterFrom">
+<summary>
+ibtnFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ajtCalFilterFrom">
+<summary>
+ajtCalFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFilterReviewTo">
+<summary>
+txtFilterReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ibtnFilterTo">
+<summary>
+ibtnFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ajtCalFilterTo">
+<summary>
+ajtCalFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnApplyReviewFilter">
+<summary>
+btnApplyReviewFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._CollapsiblePanelExtender1">
+<summary>
+CollapsiblePanelExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboSearchOption">
+<summary>
+cboSearchOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtSearchReview">
+<summary>
+txtSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnSearchReview">
+<summary>
+btnSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._grdReviews">
+<summary>
+grdReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._grdSubmittedReviews">
+<summary>
+grdSubmittedReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._findingTitle">
+<summary>
+findingTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblSelectedReview">
+<summary>
+lblSelectedReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._mvFindings">
+<summary>
+mvFindings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vFindingList">
+<summary>
+vFindingList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnAddNewFinding">
+<summary>
+btnAddNewFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._dlFindingSummary">
+<summary>
+dlFindingSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vAddEditFinding">
+<summary>
+vAddEditFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFindingNo">
+<summary>
+txtFindingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndReviewArea">
+<summary>
+txtFndReviewArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboRiskLevel">
+<summary>
+cboRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboRiskCategory">
+<summary>
+cboRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboRiskSubCategory">
+<summary>
+cboRiskSubCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboManageAwareness">
+<summary>
+cboManageAwareness control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._pnlFndObservation">
+<summary>
+pnlFndObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblObservationPanelTitle">
+<summary>
+lblObservationPanelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._mlvFndObservation">
+<summary>
+mlvFndObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vFndObservationList">
+<summary>
+vFndObservationList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnAddFndObservation">
+<summary>
+btnAddFndObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._dtlFndObservationList">
+<summary>
+dtlFndObservationList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vFndAddObservation">
+<summary>
+vFndAddObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationNo">
+<summary>
+txtFndObservationNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationDate">
+<summary>
+txtFndObservationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ibtnFndObsDate">
+<summary>
+ibtnFndObsDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._calFndObservationDate">
+<summary>
+calFndObservationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationDescription">
+<summary>
+txtFndObservationDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationRootCauseAnalysis">
+<summary>
+txtFndObservationRootCauseAnalysis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationImplication">
+<summary>
+txtFndObservationImplication control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._valtxtFndObservationImplication">
+<summary>
+valtxtFndObservationImplication control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationAssumptions">
+<summary>
+txtFndObservationAssumptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtFndObservationMitigationControl">
+<summary>
+txtFndObservationMitigationControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._cboFndObservationStatus">
+<summary>
+cboFndObservationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._mlvFndRecomms">
+<summary>
+mlvFndRecomms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vFndRecommsList">
+<summary>
+vFndRecommsList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnAddFndRecomm">
+<summary>
+btnAddFndRecomm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._dtlFndRecommList">
+<summary>
+dtlFndRecommList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._vFndAddRecomms">
+<summary>
+vFndAddRecomms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._pnlFndRecomms">
+<summary>
+pnlFndRecomms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblRecommendationPanelTitle">
+<summary>
+lblRecommendationPanelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._txtRecommendation">
+<summary>
+txtRecommendation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._valtxtRecommendation">
+<summary>
+valtxtRecommendation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnSaveFindingRecomms">
+<summary>
+btnSaveFindingRecomms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnCancelFindingRecomms">
+<summary>
+btnCancelFindingRecomms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnFndSaveObservation">
+<summary>
+btnFndSaveObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnFndCancelObservation">
+<summary>
+btnFndCancelObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnSaveFinding">
+<summary>
+btnSaveFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnCancelFinding">
+<summary>
+btnCancelFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnCommintChanges">
+<summary>
+btnCommintChanges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnCancelReview">
+<summary>
+btnCancelReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._hndBnt">
+<summary>
+hndBnt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._mpUploadFile">
+<summary>
+mpUploadFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._pnlUploadFile">
+<summary>
+pnlUploadFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblFileUploadTitle">
+<summary>
+lblFileUploadTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ucUploadFile">
+<summary>
+ucUploadFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnCancelUpload">
+<summary>
+btnCancelUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lbtnShowUploadFiles">
+<summary>
+lbtnShowUploadFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._mpShowUploadedFiles">
+<summary>
+mpShowUploadedFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._pnlShowFiles">
+<summary>
+pnlShowFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._lblViewFilesTitle">
+<summary>
+lblViewFilesTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._ucViewFiles">
+<summary>
+ucViewFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._btnClsShowFiles">
+<summary>
+btnClsShowFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.RecordReview._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._reviewTitle">
+<summary>
+reviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._cpFilter">
+<summary>
+cpFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._lblFilterLable">
+<summary>
+lblFilterLable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._cpFilberBody">
+<summary>
+cpFilberBody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._pnlFilterPanel">
+<summary>
+pnlFilterPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._txtFilterReviewFrom">
+<summary>
+txtFilterReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._ibtnFilterFrom">
+<summary>
+ibtnFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._ajtCalFilterFrom">
+<summary>
+ajtCalFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._txtFilterReviewTo">
+<summary>
+txtFilterReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._ibtnFilterTo">
+<summary>
+ibtnFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._ajtCalFilterTo">
+<summary>
+ajtCalFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._btnApplyReviewFilter">
+<summary>
+btnApplyReviewFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._CollapsiblePanelExtender1">
+<summary>
+CollapsiblePanelExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._rwLine">
+<summary>
+rwLine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._rwSearch">
+<summary>
+rwSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._cboSearchOption">
+<summary>
+cboSearchOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._txtSearchReview">
+<summary>
+txtSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._btnSearchReview">
+<summary>
+btnSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._btnCreateReview">
+<summary>
+btnCreateReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._mlvReviews">
+<summary>
+mlvReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._vReviewList">
+<summary>
+vReviewList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._grdReviews">
+<summary>
+grdReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._grdClosedReviews">
+<summary>
+grdClosedReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._vAddEditReview">
+<summary>
+vAddEditReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._pnlAddEditReview">
+<summary>
+pnlAddEditReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._txtReviewCode">
+<summary>
+txtReviewCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._valReviewCode">
+<summary>
+valReviewCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._txtReviewDescription">
+<summary>
+txtReviewDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._valReviewDesc">
+<summary>
+valReviewDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._btnSaveReview">
+<summary>
+btnSaveReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._btnCancelReview">
+<summary>
+btnCancelReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._findingTitle">
+<summary>
+findingTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._lblSelectedReview">
+<summary>
+lblSelectedReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._grdReviewAssignmentDetails">
+<summary>
+grdReviewAssignmentDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Reviews._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._lblSystemSetupTitle">
+<summary>
+lblSystemSetupTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnObservationStatusSetup">
+<summary>
+btnObservationStatusSetup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnRistkLevelSetup">
+<summary>
+btnRistkLevelSetup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnRiskCategorySetup">
+<summary>
+btnRiskCategorySetup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._lblActiveViewTitle">
+<summary>
+lblActiveViewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._mlvSystemSetup">
+<summary>
+mlvSystemSetup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vObservationStatus">
+<summary>
+vObservationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._mvObservation">
+<summary>
+mvObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vObservationList">
+<summary>
+vObservationList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnAddObservation">
+<summary>
+btnAddObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._grdObservationStatuses">
+<summary>
+grdObservationStatuses control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vAddEditObservation">
+<summary>
+vAddEditObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._aeObservationTitle">
+<summary>
+aeObservationTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtObservationStatus">
+<summary>
+txtObservationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valObserveStatus">
+<summary>
+valObserveStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtObservationStatusCode">
+<summary>
+txtObservationStatusCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valObserveStausCoode">
+<summary>
+valObserveStausCoode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtObservationNarration">
+<summary>
+txtObservationNarration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valtxtObservationNarration">
+<summary>
+valtxtObservationNarration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._cboObserveStausEnabled">
+<summary>
+cboObserveStausEnabled control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnSaveObservation">
+<summary>
+btnSaveObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnCancelObservation">
+<summary>
+btnCancelObservation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vRiskLevels">
+<summary>
+vRiskLevels control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._mvRiskLevels">
+<summary>
+mvRiskLevels control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vRiskLevelList">
+<summary>
+vRiskLevelList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnAddRiskLevel">
+<summary>
+btnAddRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._grdRiskLevels">
+<summary>
+grdRiskLevels control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vAddEditRiskLevel">
+<summary>
+vAddEditRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._aeRiskLevelTitle">
+<summary>
+aeRiskLevelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtRiskLevelDesc">
+<summary>
+txtRiskLevelDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valTxtRiskLevelDesc">
+<summary>
+valTxtRiskLevelDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtRiskLevelScore">
+<summary>
+txtRiskLevelScore control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valtxtRiskLevelScore">
+<summary>
+valtxtRiskLevelScore control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnSaveRiskLevel">
+<summary>
+btnSaveRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnCancelRiskLevel">
+<summary>
+btnCancelRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vRiskCategories">
+<summary>
+vRiskCategories control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._mlvCategories">
+<summary>
+mlvCategories control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vRiskCategoryList">
+<summary>
+vRiskCategoryList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnAddRiskCategory">
+<summary>
+btnAddRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._grdRiskCategories">
+<summary>
+grdRiskCategories control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._vAddEditRiskCategory">
+<summary>
+vAddEditRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._aeRiskCategoryTitle">
+<summary>
+aeRiskCategoryTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._txtRiskCategory">
+<summary>
+txtRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._valTxtRiskCategory">
+<summary>
+valTxtRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnSaveRiskCategory">
+<summary>
+btnSaveRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._btnCancelRiskCategory">
+<summary>
+btnCancelRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.SystemSetup._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._mlvBranchRecords">
+<summary>
+mlvBranchRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._cpFilter">
+<summary>
+cpFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblFilterLable">
+<summary>
+lblFilterLable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._cpFilberBody">
+<summary>
+cpFilberBody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtFilterReviewFrom">
+<summary>
+txtFilterReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ibtnFilterFrom">
+<summary>
+ibtnFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ajtCalFilterFrom">
+<summary>
+ajtCalFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtFilterReviewTo">
+<summary>
+txtFilterReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ibtnFilterTo">
+<summary>
+ibtnFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ajtCalFilterTo">
+<summary>
+ajtCalFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnApplyReviewFilter">
+<summary>
+btnApplyReviewFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._CollapsiblePanelExtender1">
+<summary>
+CollapsiblePanelExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._cboSearchOption">
+<summary>
+cboSearchOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtSearchReview">
+<summary>
+txtSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnSearchReview">
+<summary>
+btnSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._grdReviews">
+<summary>
+grdReviews control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblSelectedReview">
+<summary>
+lblSelectedReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._mvFindings">
+<summary>
+mvFindings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._vFindingList">
+<summary>
+vFindingList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._dlFindingSummary">
+<summary>
+dlFindingSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._vAddEditFinding">
+<summary>
+vAddEditFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._pFindingNumber">
+<summary>
+pFindingNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._pReviewArea">
+<summary>
+pReviewArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._dtlFndObservationList">
+<summary>
+dtlFndObservationList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnHndBtn">
+<summary>
+btnHndBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._mpAddActionTaken">
+<summary>
+mpAddActionTaken control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._pnlAddEditActionTaken">
+<summary>
+pnlAddEditActionTaken control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtATDate">
+<summary>
+txtATDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ibtnATDate">
+<summary>
+ibtnATDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._valtxtATDate">
+<summary>
+valtxtATDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtATDetails">
+<summary>
+txtATDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._cboATtatus">
+<summary>
+cboATtatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._valATDetails">
+<summary>
+valATDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnSaveActionTaken">
+<summary>
+btnSaveActionTaken control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnCancelActionTaken">
+<summary>
+btnCancelActionTaken control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._hndBnt">
+<summary>
+hndBnt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._mpAddEditActionPlan">
+<summary>
+mpAddEditActionPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._pnlAddEditActionPlan">
+<summary>
+pnlAddEditActionPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._hndAPObservationId">
+<summary>
+hndAPObservationId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblAPObservationDate">
+<summary>
+lblAPObservationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblAPObservationNo">
+<summary>
+lblAPObservationNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblAPObservationDescription">
+<summary>
+lblAPObservationDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtAPResolutionDate">
+<summary>
+txtAPResolutionDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._ibtnAPResolutionDate">
+<summary>
+ibtnAPResolutionDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._calAPResolutionDate">
+<summary>
+calAPResolutionDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._cboUsersInBranch">
+<summary>
+cboUsersInBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnAddActionPlanEmployee">
+<summary>
+btnAddActionPlanEmployee control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._lblAPUserList">
+<summary>
+lblAPUserList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtAPSchedOfficerResponse">
+<summary>
+txtAPSchedOfficerResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtAPDescription">
+<summary>
+txtAPDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._valtxtAPDescription">
+<summary>
+valtxtAPDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnSaveActionPlan">
+<summary>
+btnSaveActionPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._btnClose">
+<summary>
+btnClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._txtAPSelectedEmpIds">
+<summary>
+txtAPSelectedEmpIds control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UpdateReviewRecord._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._cpFilter">
+<summary>
+cpFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._lblFilterLable">
+<summary>
+lblFilterLable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._cpFilberBody">
+<summary>
+cpFilberBody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._pnlFilterPanel">
+<summary>
+pnlFilterPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._txtFilterReviewFrom">
+<summary>
+txtFilterReviewFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._ibtnFilterFrom">
+<summary>
+ibtnFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._ajtCalFilterFrom">
+<summary>
+ajtCalFilterFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._txtFilterReviewTo">
+<summary>
+txtFilterReviewTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._ibtnFilterTo">
+<summary>
+ibtnFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._ajtCalFilterTo">
+<summary>
+ajtCalFilterTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._btnApplyReviewFilter">
+<summary>
+btnApplyReviewFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._CollapsiblePanelExtender1">
+<summary>
+CollapsiblePanelExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._rwLine">
+<summary>
+rwLine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._rwSearch">
+<summary>
+rwSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._cboReviewBranch">
+<summary>
+cboReviewBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._cboSearchOption">
+<summary>
+cboSearchOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._txtSearchReview">
+<summary>
+txtSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._btnSearchReview">
+<summary>
+btnSearchReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._grdReviewAssignmentDetails">
+<summary>
+grdReviewAssignmentDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewReviews._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._lblReviewTitle">
+<summary>
+lblReviewTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._lblSelectedReview">
+<summary>
+lblSelectedReview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnGoBack">
+<summary>
+btnGoBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._mvFindings">
+<summary>
+mvFindings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._vFindingList">
+<summary>
+vFindingList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._dlFindingSummary">
+<summary>
+dlFindingSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._vAddEditFinding">
+<summary>
+vAddEditFinding control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pFindingNumber">
+<summary>
+pFindingNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pReviewArea">
+<summary>
+pReviewArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pRiskLevel">
+<summary>
+pRiskLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pRiskCategory">
+<summary>
+pRiskCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pRiskSubCategory">
+<summary>
+pRiskSubCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pManagementAwareness">
+<summary>
+pManagementAwareness control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._dtlFndObservationList">
+<summary>
+dtlFndObservationList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._hndBnt">
+<summary>
+hndBnt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._mpUpdateManagementResponse">
+<summary>
+mpUpdateManagementResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pnlUpdateManagementResponse">
+<summary>
+pnlUpdateManagementResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtManagementResponse">
+<summary>
+txtManagementResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnSaveManagementResponse">
+<summary>
+btnSaveManagementResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnCancelManagementResponse">
+<summary>
+btnCancelManagementResponse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._hndBnt1">
+<summary>
+hndBnt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._mpUpdateObservationStatus">
+<summary>
+mpUpdateObservationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pnlUpdateStatus">
+<summary>
+pnlUpdateStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUODescription">
+<summary>
+txtUODescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUOImplication">
+<summary>
+txtUOImplication control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUORootCause">
+<summary>
+txtUORootCause control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUOAssumption">
+<summary>
+txtUOAssumption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUOMitigatingControl">
+<summary>
+txtUOMitigatingControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtUO1stRecommendation">
+<summary>
+txtUO1stRecommendation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._cboObservationStatus">
+<summary>
+cboObservationStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnSaveStatusChange">
+<summary>
+btnSaveStatusChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnCloseUpdateStatus">
+<summary>
+btnCloseUpdateStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._cfHndBtn">
+<summary>
+cfHndBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._mpCreateFollowUp">
+<summary>
+mpCreateFollowUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pnlCreateFollowUp">
+<summary>
+pnlCreateFollowUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._UpdatePanel4">
+<summary>
+UpdatePanel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtFUDate">
+<summary>
+txtFUDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._ibtnFUDate">
+<summary>
+ibtnFUDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._valtxtFUDate">
+<summary>
+valtxtFUDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtFUTitle">
+<summary>
+txtFUTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._cboFUCurrentStatus">
+<summary>
+cboFUCurrentStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._txtFURemarks">
+<summary>
+txtFURemarks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnSaveFollowUp">
+<summary>
+btnSaveFollowUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnCloseFollowUp">
+<summary>
+btnCloseFollowUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._lbtnShowUploadFiles">
+<summary>
+lbtnShowUploadFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._mpShowUploadedFiles">
+<summary>
+mpShowUploadedFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._pnlShowFiles">
+<summary>
+pnlShowFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._lblViewFilesTitle">
+<summary>
+lblViewFilesTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._UpdatePanel5">
+<summary>
+UpdatePanel5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._ucViewFiles">
+<summary>
+ucViewFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._btnClsShowFiles">
+<summary>
+btnClsShowFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ViewUpdateReview._prgLoadingProgress">
+<summary>
+prgLoadingProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ConfigureApp._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ConfigureApp._btnCreateConfiguration">
+<summary>
+btnCreateConfiguration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._lblAddFixedAssetItemTitle">
+<summary>
+lblAddFixedAssetItemTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._Panel4">
+<summary>
+Panel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._grdAssetSummary">
+<summary>
+grdAssetSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._Panel2">
+<summary>
+Panel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._grdStatusSummary">
+<summary>
+grdStatusSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._Panel3">
+<summary>
+Panel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._grdConditionSummary">
+<summary>
+grdConditionSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._pnlNotifications">
+<summary>
+pnlNotifications control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Default._dlNofications">
+<summary>
+dlNofications control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:FRITS.GridViewGroup">
+ <summary>
+ A class that represents a group consisting of a set of columns
+ </summary>
+</member>
+<member name="T:FRITS.GridViewGroupList">
+ <summary>
+ Summary description for GridViewGroupList
+ </summary>
+</member>
+<member name="T:FRITS.GridViewHelper">
+ <summary>
+ A class to allow you to add summaries and groups to a GridView, easily!
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.GroupStart">
+ <summary>
+ Event triggered when a new group starts
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.GroupEnd">
+ <summary>
+ Event triggered when a group ends
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.GroupHeader">
+ <summary>
+ Event triggered after a row for group header be inserted
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.GroupSummary">
+ <summary>
+ Event triggered after a row for group summary be inserted
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.GeneralSummary">
+ <summary>
+ Event triggered after the general summaries be generated
+ </summary>
+</member>
+<member name="E:FRITS.GridViewHelper.FooterDataBound">
+ <summary>
+ Event triggered when the footer is databound
+ </summary>
+</member>
+<member name="M:FRITS.GridViewHelper.EvaluateEquals(FRITS.GridViewGroup,System.Object)">
+ <summary>
+ Compares the actual group values with the values of the current dataitem
+ </summary>
+ <param name="g"></param>
+ <param name="dataitem"></param>
+ <returns></returns>
+</member>
+<member name="M:FRITS.GridViewHelper.InsertGridRow(System.Web.UI.WebControls.GridViewRow,FRITS.GridViewGroup)">
+ <summary>
+ Inserts a grid row. Only cells required for the summary results
+ will be created (except if GenerateAllCellsOnSummaryRow is true).
+ The group will be checked for columns with summary
+ </summary>
+ <param name="beforeRow"></param>
+ <param name="g"></param>
+ <returns></returns>
+</member>
+<member name="M:FRITS.GridViewHelper.GenerateGeneralSummaries(System.Web.UI.WebControls.GridViewRowEventArgs)">
+ <summary>
+ Generates the general summaries in the grid. 
+ </summary>
+ <param name="e">GridViewRowEventArgs</param>
+</member>
+<member name="M:FRITS.GridViewHelper.ResolveCellIndex(System.Web.UI.WebControls.GridViewRow,System.Int32)">
+ <summary>
+ Identifies the equivalent index on a row that contains cells with colspan
+ </summary>
+ <param name="row"></param>
+ <param name="colIndex"></param>
+ <returns></returns>
+</member>
+<member name="M:FRITS.GridViewHelper.HideColumnsWithoutGroupSummary">
+ <summary>
+ This method must be called to hide columns that doesn't 
+ have any summary operation when we are using a suppress group
+ </summary>
+</member>
+<member name="M:FRITS.GridViewHelper.SetInvisibleColumnsWithoutGroupSummary">
+ <summary>
+ Legacy name...
+ </summary>
+</member>
+<member name="M:FRITS.GridViewHelper.InsertGridRow(System.Web.UI.WebControls.GridViewRow)">
+ <summary>
+  Inserts a grid row with one cell only
+ </summary>
+ <param name="beforeRow"></param>
+ <returns></returns>
+</member>
+<member name="T:FRITS.GridViewSummary">
+ <summary>
+ A class that represents a summary operation defined to a column
+ </summary>
+</member>
+<member name="T:FRITS.GridViewSummaryList">
+ <summary>
+ Summary description for GridViewSummaryList
+ </summary>
+</member>
+<member name="F:FRITS.Login._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Login._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._ltlMessage">
+<summary>
+ltlMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._lblUserId">
+<summary>
+lblUserId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._lblFullName">
+<summary>
+lblFullName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._txtEmailAddress">
+<summary>
+txtEmailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._ltlMembership">
+<summary>
+ltlMembership control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._chkChangePassword">
+<summary>
+chkChangePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._UpdateProgress1">
+<summary>
+UpdateProgress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.MyProfile._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS._Dialog._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.DialogEX._Head">
+<summary>
+Head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Download._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ExportTo._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ExportTo._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ExportTo._txtLocation">
+<summary>
+txtLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ExportTo._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.BlankMaster._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.BlankMaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.BlankMaster._BlankScriptManager">
+<summary>
+BlankScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.BlankMaster._ContentPlaceHolder">
+<summary>
+ContentPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._Timer">
+<summary>
+Timer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._lblCurrentUser">
+<summary>
+lblCurrentUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._lblLogout">
+<summary>
+lblLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._lblBranchName">
+<summary>
+lblBranchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._lblLink">
+<summary>
+lblLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._Menu">
+<summary>
+Menu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._lblLastLogin">
+<summary>
+lblLastLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._SiteMap">
+<summary>
+SiteMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._ContentPlaceHolder">
+<summary>
+ContentPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._LicenseDialog">
+<summary>
+LicenseDialog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._txtLicenseError">
+<summary>
+txtLicenseError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._ltlText">
+<summary>
+ltlText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._clientScreenHeight">
+<summary>
+clientScreenHeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout1._clientScreenWidth">
+<summary>
+clientScreenWidth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._Timer">
+<summary>
+Timer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._lblCurrentUser">
+<summary>
+lblCurrentUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._lblLogout">
+<summary>
+lblLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._lblBranchName">
+<summary>
+lblBranchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._lblLink">
+<summary>
+lblLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._Menu">
+<summary>
+Menu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._lblLastLogin">
+<summary>
+lblLastLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._SiteMap">
+<summary>
+SiteMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._ContentPlaceHolder">
+<summary>
+ContentPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._LicenseDialog">
+<summary>
+LicenseDialog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._txtLicenseError">
+<summary>
+txtLicenseError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout2._ltlText">
+<summary>
+ltlText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._lblCurrentUser">
+<summary>
+lblCurrentUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._lblLogout">
+<summary>
+lblLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._lblBranchName">
+<summary>
+lblBranchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._lblLink">
+<summary>
+lblLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._Menu">
+<summary>
+Menu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._lblLastLogin">
+<summary>
+lblLastLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._SiteMap">
+<summary>
+SiteMap control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._ContentPlaceHolder">
+<summary>
+ContentPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._LicenseDialog">
+<summary>
+LicenseDialog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._txtLicenseError">
+<summary>
+txtLicenseError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._ltlText">
+<summary>
+ltlText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Layout3._Timer">
+<summary>
+Timer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.PleaseWait._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Timeout._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._ddlPageSize">
+<summary>
+ddlPageSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblCurrentPage">
+<summary>
+lblCurrentPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblTotalItems">
+<summary>
+lblTotalItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._right">
+<summary>
+right control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._rptPages">
+<summary>
+rptPages control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lnkFirstPage">
+<summary>
+lnkFirstPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblFirstPage">
+<summary>
+lblFirstPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lnkPreviousPage">
+<summary>
+lnkPreviousPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblPreviousPage">
+<summary>
+lblPreviousPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lnkNextPage">
+<summary>
+lnkNextPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblNextPage">
+<summary>
+lblNextPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lnkLastPage">
+<summary>
+lnkLastPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.LinkPager._lblLastPage">
+<summary>
+lblLastPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Pager._ddlPageSize">
+<summary>
+ddlPageSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Pager._ddlPageNumber">
+<summary>
+ddlPageNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Pager._lblShowRecords">
+<summary>
+lblShowRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucAsyncFileUploadControl._txtFileDescription">
+<summary>
+txtFileDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucAsyncFileUploadControl._fuUploadAsync">
+<summary>
+fuUploadAsync control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucAsyncFileUploadControl._imgLoader">
+<summary>
+imgLoader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucAsyncFileUploadControl._lblMesg">
+<summary>
+lblMesg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucAsyncFileUploadControl._btnUploadFile">
+<summary>
+btnUploadFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ucFileListControl._dtlFileList">
+<summary>
+dtlFileList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._txtOldPassword">
+<summary>
+txtOldPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._txtConfirmPassword">
+<summary>
+txtConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ChangePassword._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlForgottenPassword._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlForgottenPassword._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlForgottenPassword._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlForgottenPassword._ValidationSummary1">
+<summary>
+ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._txtLoginID">
+<summary>
+txtLoginID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.CtlLogin._ValidationSummary1">
+<summary>
+ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._TabStrip">
+<summary>
+TabStrip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._MultiPage">
+<summary>
+MultiPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewGeneral">
+<summary>
+PageviewGeneral control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstApplicationPartsCallBack">
+<summary>
+lstApplicationPartsCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstApplicationParts">
+<summary>
+lstApplicationParts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._cmdCallBack">
+<summary>
+cmdCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstAuthorisedOperatorsPanel">
+<summary>
+lstAuthorisedOperatorsPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstAuthorisedOperatorsCallBack">
+<summary>
+lstAuthorisedOperatorsCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstAuthorisedOperators">
+<summary>
+lstAuthorisedOperators control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PermissionsCallBack">
+<summary>
+PermissionsCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PermissionsPlaceHolder">
+<summary>
+PermissionsPlaceHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divPermissions">
+<summary>
+divPermissions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divChange">
+<summary>
+divChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkChange">
+<summary>
+chkChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divCreate">
+<summary>
+divCreate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkCreate">
+<summary>
+chkCreate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divDelete">
+<summary>
+divDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkDelete">
+<summary>
+chkDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divRead">
+<summary>
+divRead control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkRead">
+<summary>
+chkRead control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divUpload">
+<summary>
+divUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkUpload">
+<summary>
+chkUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divSubmit">
+<summary>
+divSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkSubmit">
+<summary>
+chkSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divCancel">
+<summary>
+divCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkCancel">
+<summary>
+chkCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divAuthorize">
+<summary>
+divAuthorize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkAuthorize">
+<summary>
+chkAuthorize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divDecline">
+<summary>
+divDecline control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkDecline">
+<summary>
+chkDecline control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divRelease">
+<summary>
+divRelease control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkRelease">
+<summary>
+chkRelease control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divReverse">
+<summary>
+divReverse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkReverse">
+<summary>
+chkReverse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divCommit">
+<summary>
+divCommit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkCommit">
+<summary>
+chkCommit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divManage">
+<summary>
+divManage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkManage">
+<summary>
+chkManage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divGenerate">
+<summary>
+divGenerate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkGenerate">
+<summary>
+chkGenerate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divPrint">
+<summary>
+divPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkPrint">
+<summary>
+chkPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divExport">
+<summary>
+divExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkExport">
+<summary>
+chkExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divList">
+<summary>
+divList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkList">
+<summary>
+chkList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divSend">
+<summary>
+divSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkSend">
+<summary>
+chkSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divScan">
+<summary>
+divScan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkScan">
+<summary>
+chkScan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divCheck">
+<summary>
+divCheck control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkCheck">
+<summary>
+chkCheck control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divActivate">
+<summary>
+divActivate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkActivate">
+<summary>
+chkActivate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divReset">
+<summary>
+divReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkReset">
+<summary>
+chkReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divOrder">
+<summary>
+divOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkOrder">
+<summary>
+chkOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divReceive">
+<summary>
+divReceive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkReceive">
+<summary>
+chkReceive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._divSearch">
+<summary>
+divSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._chkSearch">
+<summary>
+chkSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PermissionCallBack">
+<summary>
+PermissionCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewUsers">
+<summary>
+PageviewUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstUsersCallBack">
+<summary>
+lstUsersCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._tbl">
+<summary>
+tbl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._txtSearchUser">
+<summary>
+txtSearchUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstUsers">
+<summary>
+lstUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewGroups">
+<summary>
+PageviewGroups control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstGroupsCallBack">
+<summary>
+lstGroupsCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstGroups">
+<summary>
+lstGroups control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewRoles">
+<summary>
+PageviewRoles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstRolesCallBack">
+<summary>
+lstRolesCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstRoles">
+<summary>
+lstRoles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewOrganizationalUnits">
+<summary>
+PageviewOrganizationalUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstOrganizationalUnitsCallBack">
+<summary>
+lstOrganizationalUnitsCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._lstOrganizationalUnits">
+<summary>
+lstOrganizationalUnits control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._PageviewAuditLogs">
+<summary>
+PageviewAuditLogs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._gridCallBack">
+<summary>
+gridCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._Grid">
+<summary>
+Grid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._applicationPartsMenu">
+<summary>
+applicationPartsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._authorisedOperatorsMenu">
+<summary>
+authorisedOperatorsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._usersMenu">
+<summary>
+usersMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._groupsMenu">
+<summary>
+groupsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._rolesMenu">
+<summary>
+rolesMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._organizationalUnitsMenu">
+<summary>
+organizationalUnitsMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._GridContextMenu">
+<summary>
+GridContextMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._LogSqlDataSource">
+<summary>
+LogSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ProfileManager_Default._ltlUserScript">
+<summary>
+ltlUserScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.ForgottenPassword._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._TabStrip">
+<summary>
+TabStrip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._MultiPage">
+<summary>
+MultiPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._Pageview0">
+<summary>
+Pageview0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._txtDesc">
+<summary>
+txtDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._PickerFrom">
+<summary>
+PickerFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._PickerTo">
+<summary>
+PickerTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._CalendarFrom">
+<summary>
+CalendarFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._CalendarTo">
+<summary>
+CalendarTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._Pageview1">
+<summary>
+Pageview1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._lstMemberOfCallBack">
+<summary>
+lstMemberOfCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._lstMemberOf">
+<summary>
+lstMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._ltlMemberOfScript">
+<summary>
+ltlMemberOfScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._MenuMemberOf">
+<summary>
+MenuMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._Pageview2">
+<summary>
+Pageview2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._lstMemberCallBack">
+<summary>
+lstMemberCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._lstMember">
+<summary>
+lstMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._ltlMemberScript">
+<summary>
+ltlMemberScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Group._MenuMember">
+<summary>
+MenuMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._TabStrip">
+<summary>
+TabStrip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._MultiPage">
+<summary>
+MultiPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._Pageview0">
+<summary>
+Pageview0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._txtDesc">
+<summary>
+txtDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._Pageview1">
+<summary>
+Pageview1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._lstMemberOfCallBack">
+<summary>
+lstMemberOfCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._lstMemberOf">
+<summary>
+lstMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._ltlMemberOfScript">
+<summary>
+ltlMemberOfScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._MenuMemberOf">
+<summary>
+MenuMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._Pageview2">
+<summary>
+Pageview2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._lstMemberCallBack">
+<summary>
+lstMemberCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._lstMember">
+<summary>
+lstMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._ltlMemberScript">
+<summary>
+ltlMemberScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.OrgUnit._MenuMember">
+<summary>
+MenuMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._TabStrip">
+<summary>
+TabStrip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._MultiPage">
+<summary>
+MultiPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._Pageview0">
+<summary>
+Pageview0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._txtDesc">
+<summary>
+txtDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._PickerFrom">
+<summary>
+PickerFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._PickerTo">
+<summary>
+PickerTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._CalendarFrom">
+<summary>
+CalendarFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._CalendarTo">
+<summary>
+CalendarTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._Pageview1">
+<summary>
+Pageview1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._lstMemberOfCallBack">
+<summary>
+lstMemberOfCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._lstMemberOf">
+<summary>
+lstMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._ltlMemberOfScript">
+<summary>
+ltlMemberOfScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._MenuMemberOf">
+<summary>
+MenuMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._Pageview2">
+<summary>
+Pageview2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._lstMemberCallBack">
+<summary>
+lstMemberCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._lstMember">
+<summary>
+lstMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._ltlMemberScript">
+<summary>
+ltlMemberScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Role._MenuMember">
+<summary>
+MenuMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Selector._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Selector._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Selector._lstSelection">
+<summary>
+lstSelection control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Selector._lstSelectedItems">
+<summary>
+lstSelectedItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._txtFile">
+<summary>
+txtFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.UFile._btnImport">
+<summary>
+btnImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._frm">
+<summary>
+frm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ScriptManager">
+<summary>
+ScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._pnlContentPane">
+<summary>
+pnlContentPane control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._TabStrip">
+<summary>
+TabStrip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._MultiPage">
+<summary>
+MultiPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._Pageview0">
+<summary>
+Pageview0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtDesc">
+<summary>
+txtDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtEmailAddress">
+<summary>
+txtEmailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ddlDepartment">
+<summary>
+ddlDepartment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ddlBranch">
+<summary>
+ddlBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._PickerFrom">
+<summary>
+PickerFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._PickerTo">
+<summary>
+PickerTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ltlChange">
+<summary>
+ltlChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._chkChangePassword">
+<summary>
+chkChangePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._txtConfirm">
+<summary>
+txtConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._CalendarFrom">
+<summary>
+CalendarFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._CalendarTo">
+<summary>
+CalendarTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._Pageview1">
+<summary>
+Pageview1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._lstMemberOfCallBack">
+<summary>
+lstMemberOfCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._lstMemberOf">
+<summary>
+lstMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ltlMemberOfScript">
+<summary>
+ltlMemberOfScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._MenuMemberOf">
+<summary>
+MenuMemberOf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._Pageview2">
+<summary>
+Pageview2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._lstMemberCallBack">
+<summary>
+lstMemberCallBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._lstMember">
+<summary>
+lstMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._ltlMemberScript">
+<summary>
+ltlMemberScript control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._MenuMember">
+<summary>
+MenuMember control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._BranchSqlDataSource">
+<summary>
+BranchSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.User._DepartmentSqlDataSource">
+<summary>
+DepartmentSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._Toolbar">
+<summary>
+Toolbar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._tbrMain">
+<summary>
+tbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._UpdatePanel">
+<summary>
+UpdatePanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtHTTPServer">
+<summary>
+txtHTTPServer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtSMTPServer">
+<summary>
+txtSMTPServer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtOrderFolder">
+<summary>
+txtOrderFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtBatchNo">
+<summary>
+txtBatchNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtBatchPrefix">
+<summary>
+txtBatchPrefix control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._chkAllowNotification">
+<summary>
+chkAllowNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtNotificationEmail">
+<summary>
+txtNotificationEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._txtNotificationEmailAlias">
+<summary>
+txtNotificationEmailAlias control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._UpdateProgress">
+<summary>
+UpdateProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:FRITS.Settings._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
